@@ -1,6 +1,7 @@
 ---
 title: Listener Name
 keywords: naming, listener, name
+toc: false
 ---
 
 Checks the naming conventions of event listener functions specified using `listeners` property.

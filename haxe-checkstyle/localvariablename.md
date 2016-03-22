@@ -1,6 +1,7 @@
 ---
 title: Local Variable Name
-keywords: naming,local,variable,name
+keywords: naming, local, variable, name
+toc: false
 ---
 
 Checks that the local variable names conform to a format specified by the `format` property.

@@ -24,11 +24,9 @@ The default reg-ex as specified in the configuration below allows all upper case
 }
 ```
 
-<br>
-
 ### Valid
 
-```
+```java
 static var COUNT:Int = 1;
 
 static inline var COUNT:Int = 1;
@@ -36,8 +34,8 @@ static inline var COUNT:Int = 1;
 
 ### Invalid
 
-```
+```java
 static inline var Count:Int = 1;
 ```
 
-`Invalid const signature: Count (name should be ~/^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$/)`
+{{site.data.alerts.error}} Invalid const signature: Count (name should be ~/^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$/) {{site.data.alerts.end}}
