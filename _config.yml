@@ -1,12 +1,12 @@
 # project definitions
-project: docs
+project: haxe-checkstyle
 output: web
 destination: doc_outputs/haxe-checkstyle
 topnav_title: Haxe Checkstyle Documentation
 homepage_title:
 site_title: Haxe Checkstyle Documentation
-url: http://haxecheckstyle.github.io/docs/
-project_folder: docs
+url: /docs/
+project_folder: haxe-checkstyle
 company_name: Haxe Checkstyle
 footer_image_location: common_images/company_logo.png
 # variables
