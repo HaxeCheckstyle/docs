@@ -1,0 +1,2 @@
+# docs
+Haxe Checstyle Documentation
