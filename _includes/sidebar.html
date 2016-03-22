@@ -48,7 +48,6 @@
             {% for entry in sidebar %}
             {% for subcategory in entry.subcategories %}
             {% if subcategory.output contains "web" %}
-
             <li><a href="#">{{ subcategory.title }}</a>
                 <ul>
                     {% for item in subcategory.items %}
@@ -58,15 +57,8 @@
                     {% elsif page.url == item.url %}
                     <li class="active"><a href="{{item.url}}">{{item.title}}</a></li>
                     {% else %}
-                    <li><a href="{{item.url}}">{{item.title}}</a></li>
+                    <li><a href="{{site.url}}{{item.url}}">{{item.title}}</a></li>
                     {% endif %}
-
-                    <script>
-            console.log("{{item.url}}");
-                 console.log("{{page.url}}");
-                 console.log(page.url);
-
-            </script>
 
                     {% for thirdlevel in item.thirdlevel %}
                     {% if thirdlevel.output contains "web" %}
@@ -77,9 +69,9 @@
                             {% if deeplevel.external_url %}
                             <li><a href="{{deeplevel.external_url}}" target="_blank">{{deeplevel.title}}</a></li>
                             {% elsif page.url == deeplevel.url %}
-                            <li class="active"><a href="{{deeplevel.url}}">{{deeplevel.title}}</a></li>
+                            <li class="active"><a href="{{site.url}}{{deeplevel.url}}">{{deeplevel.title}}</a></li>
                             {% else %}
-                            <li><a href="{{deeplevel.url}}">{{deeplevel.title}}</a></li>
+                            <li><a href="{{site.url}}{{deeplevel.url}}">{{deeplevel.title}}</a></li>
                             {% endif %}
 
                             {% endif %}
