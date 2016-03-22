@@ -49,11 +49,6 @@
             {% for subcategory in entry.subcategories %}
             {% if subcategory.output contains "web" %}
 
-            <script>
-            console.log("{{item.url}}");
-                 console.log("{{page.url}}");
-
-            </script>
             <li><a href="#">{{ subcategory.title }}</a>
                 <ul>
                     {% for item in subcategory.items %}
@@ -65,6 +60,13 @@
                     {% else %}
                     <li><a href="{{item.url}}">{{item.title}}</a></li>
                     {% endif %}
+
+                    <script>
+            console.log("{{item.url}}");
+                 console.log("{{page.url}}");
+                 console.log(page.url);
+
+            </script>
 
                     {% for thirdlevel in item.thirdlevel %}
                     {% if thirdlevel.output contains "web" %}
