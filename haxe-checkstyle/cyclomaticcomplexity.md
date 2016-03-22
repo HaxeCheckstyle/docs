@@ -30,8 +30,6 @@ Checks the complexity of methods using McCabe simplified [cyclomatic complexity]
 }
 ```
 
-<br>
-
 In general, for function level complexity:
 
 |  Score | Complexity        |
@@ -43,7 +41,7 @@ In general, for function level complexity:
 
 The following function has a complexity score of **`8`**.
 
-```
+```java
 public function test() {
 	var a = 1;
 	if (a == 1) {
@@ -69,4 +67,4 @@ public function test() {
 }
 ```
 
-`Function "test" is too complex (score: 8)`
+{{site.data.alerts.error}} Function "test" is too complex (score: 8) {{site.data.alerts.end}}
