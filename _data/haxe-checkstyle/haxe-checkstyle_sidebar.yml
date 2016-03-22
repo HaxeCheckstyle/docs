@@ -7,99 +7,99 @@ entries:
     output: web
     items:
       - title: About
-        url: /docs/haxe-checkstyle/home.html
+        url: /haxe-checkstyle/home.html
         output: web
       - title: Setup
-        url: /docs/haxe-checkstyle/setup.html
+        url: /haxe-checkstyle/setup.html
         output: web
 
   - title: Block
     output: web
     items:
     - title: Empty Block
-      url: /docs/haxe-checkstyle/emptyblock.html
+      url: /haxe-checkstyle/emptyblock.html
       output: web
 
     - title: Need Braces
-      url: /docs/haxe-checkstyle/needbraces.html
+      url: /haxe-checkstyle/needbraces.html
       output: web
 
     - title: Left Curly
-      url: /docs/haxe-checkstyle/leftcurly.html
+      url: /haxe-checkstyle/leftcurly.html
       output: web
 
     - title: Right Curly
-      url: /docs/haxe-checkstyle/rightcurly.html
+      url: /haxe-checkstyle/rightcurly.html
       output: web
 
   - title: Coding
     output: web
     items:
     - title: Avoid Inline Conditionals
-      url: /docs/haxe-checkstyle/avoidInlineconditionals.html
+      url: /haxe-checkstyle/avoidInlineconditionals.html
       output: web
 
     - title: Default Comes Last
-      url: /docs/haxe-checkstyle/defaultcomeslast.html
+      url: /haxe-checkstyle/defaultcomeslast.html
       output: web
 
     - title: Hidden Field
-      url: /docs/haxe-checkstyle/hiddenfield.html
+      url: /haxe-checkstyle/hiddenfield.html
       output: web
 
     - title: Inner Assignment
-      url: /docs/haxe-checkstyle/innerassignment.html
+      url: /haxe-checkstyle/innerassignment.html
       output: web
 
     - title: Magic Number
-      url: /docs/haxe-checkstyle/magicnumber.html
+      url: /haxe-checkstyle/magicnumber.html
       output: web
 
     - title: Multiple Variable Declarations
-      url: /docs/haxe-checkstyle/multiplevariabledeclarations.html
+      url: /haxe-checkstyle/multiplevariabledeclarations.html
       output: web
 
     - title: Nested For Depth
-      url: /docs/haxe-checkstyle/nestedfordepth.html
+      url: /haxe-checkstyle/nestedfordepth.html
       output: web
 
     - title: Nested If Depth
-      url: /docs/haxe-checkstyle/nestedifdepth.html
+      url: /haxe-checkstyle/nestedifdepth.html
       output: web
 
     - title: Nested Try Depth
-      url: /docs/haxe-checkstyle/nestedtrydepth.html
+      url: /haxe-checkstyle/nestedtrydepth.html
       output: web
 
     - title: Nullable Parameter
-      url: /docs/haxe-checkstyle/nullableparameter.html
+      url: /haxe-checkstyle/nullableparameter.html
       output: web
 
     - title: Return Count
-      url: /docs/haxe-checkstyle/returncount.html
+      url: /haxe-checkstyle/returncount.html
       output: web
 
     - title: Simplify Boolean Expression
-      url: /docs/haxe-checkstyle/simplifybooleanexpression.html
+      url: /haxe-checkstyle/simplifybooleanexpression.html
       output: web
 
     - title: Simplify Boolean Return
-      url: /docs/haxe-checkstyle/simplifybooleanreturn.html
+      url: /haxe-checkstyle/simplifybooleanreturn.html
       output: web
 
     - title: Trace
-      url: /docs/haxe-checkstyle/trace.html
+      url: /haxe-checkstyle/trace.html
       output: web
 
     - title: Variable Initialisation
-      url: /docs/haxe-checkstyle/variableinitialisation.html
+      url: /haxe-checkstyle/variableinitialisation.html
       output: web
 
   - title: Comments
     output: web
     items:
     - title: TODO Comment
-      url: /docs/haxe-checkstyle/todocomment.html
+      url: /haxe-checkstyle/todocomment.html
       output: web
 
 
@@ -107,181 +107,181 @@ entries:
     output: web
     items:
     - title: Empty Package
-      url: /docs/haxe-checkstyle/emptypackage.html
+      url: /haxe-checkstyle/emptypackage.html
       output: web
 
     - title: Interface
-      url: /docs/haxe-checkstyle/interface.html
+      url: /haxe-checkstyle/interface.html
       output: web
 
     - title: Unnecessary Constructor
-      url: /docs/haxe-checkstyle/unnecessaryconstructor.html
+      url: /haxe-checkstyle/unnecessaryconstructor.html
       output: web
 
   - title: Imports
     output: web
     items:
     - title: Avoid Star Import
-      url: /docs/haxe-checkstyle/avoidstarimport.html
+      url: /haxe-checkstyle/avoidstarimport.html
       output: web
 
     - title: Unused Import
-      url: /docs/haxe-checkstyle/unusedimport.html
+      url: /haxe-checkstyle/unusedimport.html
       output: web
 
   - title: Literal
     output: web
     items:
     - title: Array Literal
-      url: /docs/haxe-checkstyle/arrayliteral.html
+      url: /haxe-checkstyle/arrayliteral.html
       output: web
 
     - title: EReg Literal
-      url: /docs/haxe-checkstyle/eregliteral.html
+      url: /haxe-checkstyle/eregliteral.html
       output: web
 
     - title: Hexadecimal Literal
-      url: /docs/haxe-checkstyle/hexadecimalliteral.html
+      url: /haxe-checkstyle/hexadecimalliteral.html
       output: web
 
     - title: Multiple String Literals
-      url: /docs/haxe-checkstyle/multiplestringliterals.html
+      url: /haxe-checkstyle/multiplestringliterals.html
       output: web
 
   - title: Metrics
     output: web
     items:
     - title: Cyclomatic Complexity
-      url: /docs/haxe-checkstyle/cyclomaticcomplexity.html
+      url: /haxe-checkstyle/cyclomaticcomplexity.html
       output: web
 
   - title: Modifier
     output: web
     items:
     - title: Modifier Order
-      url: /docs/haxe-checkstyle/modifierorder.html
+      url: /haxe-checkstyle/modifierorder.html
       output: web
 
     - title: Redundant Modifier
-      url: /docs/haxe-checkstyle/redundantmodifier.html
+      url: /haxe-checkstyle/redundantmodifier.html
       output: web
 
   - title: Naming
     output: web
     items:
     - title: Catch Parameter Name
-      url: /docs/haxe-checkstyle/catchparametername.html
+      url: /haxe-checkstyle/catchparametername.html
       output: web
 
     - title: Constant Name
-      url: /docs/haxe-checkstyle/constantname.html
+      url: /haxe-checkstyle/constantname.html
       output: web
 
     - title: Listener Name
-      url: /docs/haxe-checkstyle/listenername.html
+      url: /haxe-checkstyle/listenername.html
       output: web
 
     - title: Local Variable Name
-      url: /docs/haxe-checkstyle/localvariablename.html
+      url: /haxe-checkstyle/localvariablename.html
       output: web
 
     - title: Member Name
-      url: /docs/haxe-checkstyle/membername.html
+      url: /haxe-checkstyle/membername.html
       output: web
 
     - title: Method Name
-      url: /docs/haxe-checkstyle/methodname.html
+      url: /haxe-checkstyle/methodname.html
       output: web
 
     - title: Parameter Name
-      url: /docs/haxe-checkstyle/parametername.html
+      url: /haxe-checkstyle/parametername.html
       output: web
 
     - title: Type Name
-      url: /docs/haxe-checkstyle/typename.html
+      url: /haxe-checkstyle/typename.html
       output: web
 
   - title: Size
     output: web
     items:
     - title: File Length
-      url: /docs/haxe-checkstyle/filelength.html
+      url: /haxe-checkstyle/filelength.html
       output: web
 
     - title: Line Length
-      url: /docs/haxe-checkstyle/linelength.html
+      url: /haxe-checkstyle/linelength.html
       output: web
 
     - title: Method Count
-      url: /docs/haxe-checkstyle/methodcount.html
+      url: /haxe-checkstyle/methodcount.html
       output: web
 
     - title: Method Length
-      url: /docs/haxe-checkstyle/methodlength.html
+      url: /haxe-checkstyle/methodlength.html
       output: web
 
     - title: Parameter Number
-      url: /docs/haxe-checkstyle/parameternumber.html
+      url: /haxe-checkstyle/parameternumber.html
       output: web
 
   - title: Type
     output: web
     items:
     - title: Anonymous
-      url: /docs/haxe-checkstyle/anonymous.html
+      url: /haxe-checkstyle/anonymous.html
       output: web
 
     - title: Dynamic
-      url: /docs/haxe-checkstyle/dynamic.html
+      url: /haxe-checkstyle/dynamic.html
       output: web
 
     - title: Return
-      url: /docs/haxe-checkstyle/return.html
+      url: /haxe-checkstyle/return.html
       output: web
 
     - title: Type
-      url: /docs/haxe-checkstyle/type.html
+      url: /haxe-checkstyle/type.html
       output: web
 
   - title: Whitespace
     output: web
     items:
     - title: Array Access
-      url: /docs/haxe-checkstyle/arrayaccess.html
+      url: /haxe-checkstyle/arrayaccess.html
       output: web
 
     - title: Empty Lines
-      url: /docs/haxe-checkstyle/emptylines.html
+      url: /haxe-checkstyle/emptylines.html
       output: web
 
     - title: Indentation Character
-      url: /docs/haxe-checkstyle/indentationcharacter.html
+      url: /haxe-checkstyle/indentationcharacter.html
       output: web
 
     - title: Operator Whitespace
-      url: /docs/haxe-checkstyle/operatorwhitespace.html
+      url: /haxe-checkstyle/operatorwhitespace.html
       output: web
 
     - title: Operator Wrap
-      url: /docs/haxe-checkstyle/operatorwrap.html
+      url: /haxe-checkstyle/operatorwrap.html
       output: web
 
     - title: Spacing
-      url: /docs/haxe-checkstyle/spacing.html
+      url: /haxe-checkstyle/spacing.html
       output: web
 
     - title: Tab For Aligning
-      url: /docs/haxe-checkstyle/tabforaligning.html
+      url: /haxe-checkstyle/tabforaligning.html
       output: web
 
     - title: Trailing Whitespace
-      url: /docs/haxe-checkstyle/trailingwhitespace.html
+      url: /haxe-checkstyle/trailingwhitespace.html
       output: web
 
     - title: Whitespace After
-      url: /docs/haxe-checkstyle/whitespaceafter.html
+      url: /haxe-checkstyle/whitespaceafter.html
       output: web
 
     - title: Whitespace Around
-      url: /docs/haxe-checkstyle/whitespacearound.html
+      url: /haxe-checkstyle/whitespacearound.html
       output: web
