@@ -1,13 +1,13 @@
 # project definitions
 project: docs
 output: web
-destination: doc_outputs/haxe-checkstyle/
+destination: doc_outputs/docs
 topnav_title: Haxe Checkstyle Documentation
 homepage_title:
 site_title: Haxe Checkstyle Documentation
-url: http://haxecheckstyle.github.io/haxe-checkstyle/
+url: /
 project_folder: docs
-company_name: Gamesys
+company_name: Haxe Checkstyle
 footer_image_location: common_images/company_logo.png
 # variables
 
