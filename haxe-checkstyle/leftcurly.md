@@ -75,7 +75,7 @@ public function new()
 With `ignoreEmptySingleline` set to `false`
 
 ```java
-	public function donothing() {}
+public function donothing() {}
 ```
 
 {{site.data.alerts.error}} Left curly should be at EOL (only linebreak or comment after curly) {{site.data.alerts.end}}

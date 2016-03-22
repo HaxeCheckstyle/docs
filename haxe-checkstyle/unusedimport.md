@@ -30,11 +30,9 @@ Checks for unused or duplicate imports.
 
 **Note:** UnusedImport skips all files named `import.hx`.
 
-<br>
-
 ### Valid
 
-```haxe
+```java
 package com.project;
 
 import haxe.macro.Expr;
@@ -49,7 +47,7 @@ class Main extends Type {
 
 ### Invalid
 
-```haxe
+```java
 package com.project;
 
 import com.test.Type;
@@ -63,13 +61,10 @@ class Main extends Type2 implements SomeType {
 }
 ```
 
-`Unused import com.test.Type detected`
+{{site.data.alerts.error}} Unused import com.test.Type detected {{site.data.alerts.end}}
 
+{{site.data.alerts.error}} Duplicate import com.project.sub.Type2 detected {{site.data.alerts.end}}
 
-`Duplicate import com.project.sub.Type2 detected`
+{{site.data.alerts.error}} Unnecessary top level import String detected {{site.data.alerts.end}}
 
-
-`Unneccessary toplevel import String detected`
-
-
-`Detected import com.project.SomeType from same package com.project`
+{{site.data.alerts.error}} Detected import com.project.SomeType from same package com.project {{site.data.alerts.end}}
