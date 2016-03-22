@@ -20,14 +20,14 @@ Checks for usage of EReg literals (between ~/ and /) instead of new.
 
 ### Valid
 
-```
+```java
 var reg:EReg = ~/test/i;
 ```
 
 ### Invalid
 
-```
+```java
 var reg:EReg = new EReg("test", "i");
 ```
 
-`Bad EReg instantiation, define expression between ~/ and /`
+{{site.data.alerts.error}} Bad EReg instantiation, define expression between ~/ and / {{site.data.alerts.end}}

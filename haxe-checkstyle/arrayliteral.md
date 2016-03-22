@@ -16,19 +16,17 @@ Checks if the array is instantiated using [] which is shorter and cleaner, not w
     }
 }
 ```
-<br>
 
 ### Valid
 
-```
+```java
 var test:Array = [];
 ```
-<br>
 
 ### Invalid
 
-```
+```java
 var test:Array = new Array();
 ```
 
-`Bad array instantiation, use the array literal notation [] which is shorter and cleaner`
+{{site.data.alerts.error}} Bad array instantiation, use the array literal notation [] which is shorter and cleaner {{site.data.alerts.end}}

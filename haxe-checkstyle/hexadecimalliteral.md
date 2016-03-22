@@ -1,6 +1,6 @@
 ---
 title: Hexadecimal Literal
-keywords: hexadecimal,literal
+keywords: hexadecimal, literal
 toc: false
 ---
 
@@ -20,14 +20,14 @@ Checks the letter case of hexadecimal literals.
 
 ### Valid
 
-```haxe
+```java
 var clr = 0xFFFFFF;
 ```
 
 ### Invalid
 
-```haxe
+```java
 var clr = 0xffffff;
 ```
 
-`Bad hexademical literal, use upperCase`
+{{site.data.alerts.error}} Bad hexademical literal, use upperCase {{site.data.alerts.end}}
