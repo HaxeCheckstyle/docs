@@ -1,0 +1,39 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  subcategories:
+#    - title: Sample
+#      url: /mydoc/sample.html
+#      audience: all
+#      platform: all
+#      product: all
+#      version: all
+#      output: web
+
+#    - title: Github
+#      external_url: https://github.com/HaxeCheckstyle/haxe-checkstyle
+#      output: web
+
+#Topnav dropdowns
+#topnav_dropdowns:
+#- title: Topnav dropdowns
+#  subcategories:
+#    - title: Useful Resources
+#      output: web
+#      items:
+#        - title: gs-console
+#          external_url: http://www.jackpotjoy.frosties.dev.gamesys.corp/static-assets/gs-console/index.html
+#         audience: all
+#          platform: all
+#          product: all
+#          version: all
+#          output: web
+
+#        - title: gs-reports
+#          external_url: http://www.jackpotjoy.frosties.dev.gamesys.corp/static-assets/gs-reports/index.html
+#          audience: all
+#          platform: all
+#          product: all
+#          version: all
+#          output: web

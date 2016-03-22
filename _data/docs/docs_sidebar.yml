@@ -1,0 +1,287 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+
+  - title: Introduction
+    output: web
+    items:
+      - title: About
+        url: docs/home.html
+        output: web
+      - title: Setup
+        url: docs/setup.html
+        output: web
+
+  - title: Block
+    output: web
+    items:
+    - title: Empty Block
+      url: docs/emptyblock.html
+      output: web
+
+    - title: Need Braces
+      url: docs/needbraces.html
+      output: web
+
+    - title: Left Curly
+      url: docs/leftcurly.html
+      output: web
+
+    - title: Right Curly
+      url: docs/rightcurly.html
+      output: web
+
+  - title: Coding
+    output: web
+    items:
+    - title: Avoid Inline Conditionals
+      url: docs/avoidInlineconditionals.html
+      output: web
+
+    - title: Default Comes Last
+      url: docs/defaultcomeslast.html
+      output: web
+
+    - title: Hidden Field
+      url: docs/hiddenfield.html
+      output: web
+
+    - title: Inner Assignment
+      url: docs/innerassignment.html
+      output: web
+
+    - title: Magic Number
+      url: docs/magicnumber.html
+      output: web
+
+    - title: Multiple Variable Declarations
+      url: docs/multiplevariabledeclarations.html
+      output: web
+
+    - title: Nested For Depth
+      url: docs/nestedfordepth.html
+      output: web
+
+    - title: Nested If Depth
+      url: docs/nestedifdepth.html
+      output: web
+
+    - title: Nested Try Depth
+      url: docs/nestedtrydepth.html
+      output: web
+
+    - title: Nullable Parameter
+      url: docs/nullableparameter.html
+      output: web
+
+    - title: Return Count
+      url: docs/returncount.html
+      output: web
+
+    - title: Simplify Boolean Expression
+      url: docs/simplifybooleanexpression.html
+      output: web
+
+    - title: Simplify Boolean Return
+      url: docs/simplifybooleanreturn.html
+      output: web
+
+    - title: Trace
+      url: docs/trace.html
+      output: web
+
+    - title: Variable Initialisation
+      url: docs/variableinitialisation.html
+      output: web
+
+  - title: Comments
+    output: web
+    items:
+    - title: TODO Comment
+      url: docs/todocomment.html
+      output: web
+
+
+  - title: Design
+    output: web
+    items:
+    - title: Empty Package
+      url: docs/emptypackage.html
+      output: web
+
+    - title: Interface
+      url: docs/interface.html
+      output: web
+
+    - title: Unnecessary Constructor
+      url: docs/unnecessaryconstructor.html
+      output: web
+
+  - title: Imports
+    output: web
+    items:
+    - title: Avoid Star Import
+      url: docs/avoidstarimport.html
+      output: web
+
+    - title: Unused Import
+      url: docs/unusedimport.html
+      output: web
+
+  - title: Literal
+    output: web
+    items:
+    - title: Array Literal
+      url: docs/arrayliteral.html
+      output: web
+
+    - title: EReg Literal
+      url: docs/eregliteral.html
+      output: web
+
+    - title: Hexadecimal Literal
+      url: docs/hexadecimalliteral.html
+      output: web
+
+    - title: Multiple String Literals
+      url: docs/multiplestringliterals.html
+      output: web
+
+  - title: Metrics
+    output: web
+    items:
+    - title: Cyclomatic Complexity
+      url: docs/cyclomaticcomplexity.html
+      output: web
+
+  - title: Modifier
+    output: web
+    items:
+    - title: Modifier Order
+      url: docs/modifierorder.html
+      output: web
+
+    - title: Redundant Modifier
+      url: docs/redundantmodifier.html
+      output: web
+
+  - title: Naming
+    output: web
+    items:
+    - title: Catch Parameter Name
+      url: docs/catchparametername.html
+      output: web
+
+    - title: Constant Name
+      url: docs/constantname.html
+      output: web
+
+    - title: Listener Name
+      url: docs/listenername.html
+      output: web
+
+    - title: Local Variable Name
+      url: docs/localvariablename.html
+      output: web
+
+    - title: Member Name
+      url: docs/membername.html
+      output: web
+
+    - title: Method Name
+      url: docs/methodname.html
+      output: web
+
+    - title: Parameter Name
+      url: docs/parametername.html
+      output: web
+
+    - title: Type Name
+      url: docs/typename.html
+      output: web
+
+  - title: Size
+    output: web
+    items:
+    - title: File Length
+      url: docs/filelength.html
+      output: web
+
+    - title: Line Length
+      url: docs/linelength.html
+      output: web
+
+    - title: Method Count
+      url: docs/methodcount.html
+      output: web
+
+    - title: Method Length
+      url: docs/methodlength.html
+      output: web
+
+    - title: Parameter Number
+      url: docs/parameternumber.html
+      output: web
+
+  - title: Type
+    output: web
+    items:
+    - title: Anonymous
+      url: docs/anonymous.html
+      output: web
+
+    - title: Dynamic
+      url: docs/dynamic.html
+      output: web
+
+    - title: Return
+      url: docs/return.html
+      output: web
+
+    - title: Type
+      url: docs/type.html
+      output: web
+
+  - title: Whitespace
+    output: web
+    items:
+    - title: Array Access
+      url: docs/arrayaccess.html
+      output: web
+
+    - title: Empty Lines
+      url: docs/emptylines.html
+      output: web
+
+    - title: Indentation Character
+      url: docs/indentationcharacter.html
+      output: web
+
+    - title: Operator Whitespace
+      url: docs/operatorwhitespace.html
+      output: web
+
+    - title: Operator Wrap
+      url: docs/operatorwrap.html
+      output: web
+
+    - title: Spacing
+      url: docs/spacing.html
+      output: web
+
+    - title: Tab For Aligning
+      url: docs/tabforaligning.html
+      output: web
+
+    - title: Trailing Whitespace
+      url: docs/trailingwhitespace.html
+      output: web
+
+    - title: Whitespace After
+      url: docs/whitespaceafter.html
+      output: web
+
+    - title: Whitespace Around
+      url: docs/whitespacearound.html
+      output: web
