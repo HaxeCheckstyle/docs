@@ -19,7 +19,7 @@ Checks for use of Dynamic type anywhere in the code.
 
 The following is a sample `Dynamic` usage.
 
-```
+```java
 var count:Dynamic;
 
 function calc(val1:Dynamic, val2:Dynamic):Dynamic {
@@ -28,13 +28,10 @@ function calc(val1:Dynamic, val2:Dynamic):Dynamic {
 }
 ```
 
-`Dynamic type used: count`
+{{site.data.alerts.error}} Dynamic type used: count {{site.data.alerts.end}}
 
+{{site.data.alerts.error}} Dynamic type used: val1 {{site.data.alerts.end}}
 
-`Dynamic type used: val1`
+{{site.data.alerts.error}} Dynamic type used: val2 {{site.data.alerts.end}}
 
-
-`Dynamic type used: val2`
-
-
-`Dynamic type used: calc`
+{{site.data.alerts.error}} Dynamic type used: calc {{site.data.alerts.end}}

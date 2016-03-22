@@ -86,7 +86,7 @@ Classes/Packages can be excluded as shown below for each check:
 
 Note that exclude paths should be relative to the source paths specified.
 
-```
+```json
 "exclude": {
 	"all": [],
  	"Dynamic": [
@@ -120,7 +120,7 @@ For example, if you have a class which has `Dynamic` usage and you want to omit 
 
 You can also omit multiple checks.
 
-```haxe
+```
 @SuppressWarnings("checkstyle:Dynamic", "checkstyle:LineLength")
 ```
 

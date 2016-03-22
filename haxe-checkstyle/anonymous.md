@@ -17,28 +17,24 @@ Check to find any anonymous type structures used.
 }
 ```
 
-<br>
-
 ### Valid
 
-```
+```java
 var data:Data;
 ```
 
 
-```
+```java
 typedef Data = {
     var name:String;
     var value:Int;
 }
 ```
 
-<br>
-
 ### Invalid
 
-```
+```java
 var data:{name:String, value:Int};
 ```
 
-`Anonymous structure found, it is advised to use a typedef instead "data"`
+{{site.data.alerts.error}} Anonymous structure found, it is advised to use a typedef instead "data" {{site.data.alerts.end}}
