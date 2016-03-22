@@ -27,24 +27,24 @@ Checks that the order of modifiers conforms to the standards.
 
 ### Valid
 
-```
+```java
 public static inline var COUNT:Int = 1;
 ```
 
-```
+```java
 override public function close() {}
 ```
 
 ### Invalid
 
-```
+```java
 inline public static var COUNT:Int = 1;\
 ```
 
-`Invalid access modifier order: COUNT (modifier: PUBLIC_PRIVATE)`
+{{site.data.alerts.error}} Invalid access modifier order: COUNT (modifier: PUBLIC_PRIVATE) {{site.data.alerts.end}}
 
-```
+```java
 public override function close() {}
 ```
 
-`Invalid access modifier order: close (modifier: OVERRIDE)`
+{{site.data.alerts.error}} Invalid access modifier order: close (modifier: OVERRIDE) {{site.data.alerts.end}}
