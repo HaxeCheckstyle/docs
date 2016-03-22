@@ -20,19 +20,18 @@ Checks for whitespace around a token.
 
 ### Valid
 
-```
-	var test = [];
-	test2 = 1 + 2;
+```java
+var test = [];
+test2 = 1 + 2;
 ```
 
 ### Invalid
 
+```java
+var test =[];
+test2 = 1+ 2;
 ```
-	var test =[];
-	test2 = 1+ 2;
-```
 
-`Warning No whitespace around`
+{{site.data.alerts.error}} Warning No whitespace around {{site.data.alerts.end}}
 
-
-`Warning No whitespace around +`
+{{site.data.alerts.error}} Warning No whitespace around + {{site.data.alerts.end}}

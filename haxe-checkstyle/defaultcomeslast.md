@@ -19,7 +19,7 @@ Check that the `default` is after all the cases in a `switch` statement. Haxe al
 
 ### Valid
 
-```
+```java
 switch(a) {
 	case 1:
     case 4:
@@ -29,7 +29,7 @@ switch(a) {
 
 ### Invalid
 
-```
+```java
 switch(a) {
 	case 1:
 	default: trace("test");
@@ -37,4 +37,4 @@ switch(a) {
 }
 ```
 
-` **Default should be last label in the switch`
+{{site.data.alerts.error}} Default should be last label in the switch {{site.data.alerts.end}}
