@@ -13,19 +13,34 @@ Checks that whitespace is present or absent around a operators.
 	"type": "OperatorWhitespace",
 	"props": {
 		"severity": "WARNING",
-		"assignOpPolicy": "around",      // =, +=, -=, *=, /=, <<=, >>=, >>>=, &=, |=, ^=
-		"unaryOpPolicy": "none",         // ++, --, !
-		"ternaryOpPolicy": "none",       // ?:
-		"arithmeticOpPolicy": "around",  // +, -, *, /, %
-		"compareOpPolicy": "around",     // ==, !=, <, <=, >, >=
-		"bitwiseOpPolicy": "around",     // ~, &, |, ^, <<, >>, >>>
-		"boolOpPolicy": "around",        // &&, ||
-		"intervalOpPolicy": "none",      // ...
-		"arrowPolicy": "none",           // =>
-		"functionArgPolicy": "none"      // ->
+		"assignOpPolicy": "around",
+		"unaryOpPolicy": "none",
+		"ternaryOpPolicy": "none",
+		"arithmeticOpPolicy": "around",
+		"compareOpPolicy": "around",
+		"bitwiseOpPolicy": "around",
+		"boolOpPolicy": "around",
+		"intervalOpPolicy": "none",
+		"arrowPolicy": "none",
+		"functionArgPolicy": "none"
 	}
 }
 ```
+
+| Policy                 | Operators
+| ---------------------- | ------------------------------------------------------------------- |
+| `assignOpPolicy`       | `=`, `+=`, `-=`, `*=`, `/=`, `<<=`, `>>=`, `>>>=`, `&=`, `|=`, `^=` |
+| `unaryOpPolicy`        | `++`, `--`, ``!`                                                    |
+| `ternaryOpPolicy`      | `?:`                                                                |
+| `arithmeticOpPolicy`   | `+`, `-`, `*`, `/`, ``%`                                            |
+| `compareOpPolicy`      | `==`, `!=`, `<`, `<=`, `>`, `>=`                                    |
+| `bitwiseOpPolicy`      | `~`, `&`, `|`, `^`, `<<`, `>>`, `>>>`                               |
+| `boolOpPolicy`         | `&&`, `||`                                                          |
+| `intervalOpPolicy`     | `...`                                                               |
+| `arrowPolicy`          | `=>`                                                                |
+| `functionArgPolicy`    | `->`                                                                |
+
+<br>
 
 Available policy values are:
 
