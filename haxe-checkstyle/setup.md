@@ -84,7 +84,6 @@ haxelib run checkstyle -s src -s samples
 
 Classes/Packages can be excluded as shown below for each check:
 
-Note that exclude paths should be relative to the source paths specified.
 
 ```json
 "exclude": {
@@ -106,6 +105,10 @@ Note that exclude paths should be relative to the source paths specified.
  }
 ```
 
+{{site.data.alerts.note}} Exclude paths should be relative to the source paths specified. {{site.data.alerts.end}}
+
+{{site.data.alerts.tip}} Exclude can either reside in rules JSON file or in a separate JSON file. If separate JSON file is used, it has to be passed using -e option.{{site.data.alerts.end}}
+
 ### Suppress Warnings
 
 An alternative way to exclude classes/methods using meta data.
@@ -114,13 +117,13 @@ An alternative way to exclude classes/methods using meta data.
 
 For example, if you have a class which has `Dynamic` usage and you want to omit that class from `Dynamic` check you can use `@SuppressWarnings` as show below.
 
-```
-@SuppressWarnings("checkstyle:Dynamic")`
+```java
+@SuppressWarnings("checkstyle:Dynamic")
 ```
 
 You can also omit multiple checks.
 
-```
+```java
 @SuppressWarnings("checkstyle:Dynamic", "checkstyle:LineLength")
 ```
 
@@ -132,4 +135,6 @@ Checkstyle has `xml` report option that can be used to integrate with Hudson and
 
 If you want to style the generated XML you can set XSLT style for the XML generated. See the sample below.
 
-`haxelib run checkstyle -s src -c config.json -p report.xml -x report.xsl`
+```java
+haxelib run checkstyle -s src -c config.json -p report.xml -x report.xsl
+```

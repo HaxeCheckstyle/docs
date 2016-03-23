@@ -38,7 +38,7 @@ override public function close() {}
 ### Invalid
 
 ```java
-inline public static var COUNT:Int = 1;\
+inline public static var COUNT:Int = 1;
 ```
 
 {{site.data.alerts.error}} Invalid access modifier order: COUNT (modifier: PUBLIC_PRIVATE) {{site.data.alerts.end}}
