@@ -33,13 +33,13 @@ Available options are end of line (`eol`) and new line (`nl`)
 option set to `eol`
 
 ```
-	var test = test1 +
-		test2;
+var test = test1 +
+	test2;
 ```
 
 option set to `nl`
 
 ```
-	var test = test1
-		+ test2;
+var test = test1
+	+ test2;
 ```
