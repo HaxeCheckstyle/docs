@@ -15,11 +15,14 @@ Checks that whitespace is present or absent around a operators.
 		"severity": "WARNING",
 		"assignOpPolicy": "around",      // =, +=, -=, *=, /=, <<=, >>=, >>>=, &=, |=, ^=
 		"unaryOpPolicy": "none",         // ++, --, !
+		"ternaryOpPolicy": "none",       // ?:
 		"arithmeticOpPolicy": "around",  // +, -, *, /, %
 		"compareOpPolicy": "around",     // ==, !=, <, <=, >, >=
 		"bitwiseOpPolicy": "around",     // ~, &, |, ^, <<, >>, >>>
 		"boolOpPolicy": "around",        // &&, ||
-		"intervalOpPolicy": "none"       // ...
+		"intervalOpPolicy": "none",      // ...
+		"arrowPolicy": "none",           // =>
+		"functionArgPolicy": "none"      // ->
 	}
 }
 ```
