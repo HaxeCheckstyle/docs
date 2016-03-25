@@ -12,14 +12,13 @@ Checks for consecutive empty lines (default is 1). Also have options to check em
 {
     "type": "EmptyLines",
     "props": {
-        "requireEmptyLineAfterPackage": true,
-		"requireEmptyLineAfterInterface": true,
-		"requireEmptyLineAfterAbstract": true,
-		"allowEmptyLineAfterSingleLineComment": true,
-		"requireEmptyLineAfterClass": true,
-		"allowEmptyLineAfterMultiLineComment": true,
-        "max": 1,
-        "severity": "INFO"
+    	"requireEmptyLineAfterInterface": true,
+    	"requireEmptyLineAfterAbstract": true,
+    	"allowEmptyLineAfterSingleLineComment": true,
+    	"requireEmptyLineAfterClass": true,
+    	"allowEmptyLineAfterMultiLineComment": true,
+    	"max": 1,
+    	"severity": "INFO"
     }
 }
 ```

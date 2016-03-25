@@ -1,12 +1,11 @@
 ---
 title: Line Length
-keywords: size/linelength
+keywords: line, length,
+toc: false
 ---
 # Line Length
 
 Checks for long lines. Long lines are hard to read.
-
----
 
 #### Configuration
 

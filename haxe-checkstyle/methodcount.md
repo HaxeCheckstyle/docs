@@ -13,8 +13,8 @@ Checks the number of methods declared in each type. This includes the number of 
     "type": "MethodCount",
     "props": {
         "maxPrivate": 100,
-		"maxPublic": 100,
-		"maxTotal": 100,
+        "maxPublic": 100,
+        "maxTotal": 100,
         "severity": "ERROR"
     }
 }
