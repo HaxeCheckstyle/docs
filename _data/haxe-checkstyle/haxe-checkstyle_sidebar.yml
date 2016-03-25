@@ -16,7 +16,7 @@ entries:
   - title: Integrations
     output: web
     items:
-      - title: Codeclimate
+      - title: Code Climate
         url: /haxe-checkstyle/codeclimate.html
         output: web
       - title: Hudson & Bamboo
