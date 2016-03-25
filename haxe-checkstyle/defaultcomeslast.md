@@ -20,7 +20,7 @@ Check that the `default` is after all the cases in a `switch` statement. Haxe al
 ### Valid
 
 ```java
-switch(a) {
+switch (a) {
 	case 1:
     case 4:
     default: trace("test");
@@ -30,10 +30,10 @@ switch(a) {
 ### Invalid
 
 ```java
-switch(a) {
+switch (a) {
 	case 1:
 	default: trace("test");
-    case 4:
+	case 4:
 }
 ```
 
