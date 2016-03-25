@@ -266,6 +266,14 @@ entries:
       url: /haxe-checkstyle/operatorwrap.html
       output: web
 
+    - title: Separator Whitespace
+      url: /haxe-checkstyle/separatorwhitespace.html
+      output: web
+
+    - title: Separator Wrap
+      url: /haxe-checkstyle/separatorwrap.html
+      output: web
+
     - title: Spacing
       url: /haxe-checkstyle/spacing.html
       output: web
