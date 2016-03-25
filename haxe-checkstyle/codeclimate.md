@@ -20,7 +20,7 @@ engines:
     enabled: true
 
 exclude_paths:
-  - resources/**/*
+  - test/**/*
 
 ratings:
   paths:

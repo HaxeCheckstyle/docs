@@ -28,7 +28,7 @@ Checks for empty blocks. The policy to verify is specified using the property `o
             "CATCH"
         ],
         "option": "empty",
-        "severity": "IGNORE"
+        "severity": "INFO"
     }
 }
 ```
@@ -38,3 +38,21 @@ Checks for empty blocks. The policy to verify is specified using the property `o
 | `empty`   | allows empty blocks but enforces `{}` notation                                   |
 | `text`    | empty blocks must contain something apart from whitespace (comment or statement) |
 | `stmt`    | all blocks must contain at least one statement                                   |
+
+## With `option` set to `empty` (default)
+
+### Valid
+
+```java
+public function test() {}
+```
+
+### Invalid
+
+```java
+public function test() {
+
+}
+```
+
+{site.data.alerts.error}} Empty block should be written as "{}" {{site.data.alerts.end}}
