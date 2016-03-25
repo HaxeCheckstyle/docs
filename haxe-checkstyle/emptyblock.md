@@ -55,5 +55,4 @@ public function test() {
 }
 ```
 
-
-{site.data.alerts.error}} Empty block should be written as `{}` {{site.data.alerts.end}}
+{{site.data.alerts.error}} Empty block should be written as "{}" {{site.data.alerts.end}}

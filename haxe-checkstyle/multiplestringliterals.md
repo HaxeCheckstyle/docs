@@ -15,7 +15,7 @@ Checks for multiple occurrences of the same string literal within a single file.
 		"minLength": 2,
 		"ignore": "^\\s+$",
 		"allowDuplicates": 2,
-        "severity": "WARNING"
+		"severity": "WARNING"
 	}
 }
 ```
