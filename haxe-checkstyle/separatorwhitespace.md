@@ -24,7 +24,7 @@ Checks that whitespace is present or absent around a separators.
 | ---------------------- | ------------- |
 | `dotPolicy`            | `.`           |
 | `commaPolicy`          | `,`           |
-| `semicolonPolicy`      | `:`           |
+| `semicolonPolicy`      | `;`           |
 
 <br>
 
