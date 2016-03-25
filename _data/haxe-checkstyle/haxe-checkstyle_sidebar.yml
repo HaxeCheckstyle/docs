@@ -13,6 +13,16 @@ entries:
         url: /haxe-checkstyle/setup.html
         output: web
 
+  - title: Integrations
+    output: web
+    items:
+      - title: Codeclimate
+        url: /haxe-checkstyle/codeclimate.html
+        output: web
+      - title: Hudson & Bamboo
+        url: /haxe-checkstyle/hudsonandbamboo.html
+        output: web
+
   - title: Block
     output: web
     items:
