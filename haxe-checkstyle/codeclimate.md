@@ -4,7 +4,9 @@ keywords: codeclimate, integration
 toc: false
 ---
 
-### .codeclimate.yml
+### Example .codeclimate.yml
+
+Below is an example `.codeclimate.yml` with `haxe-checkstyle` engine enabled.
 
 ```yml
 engines:
@@ -19,3 +21,10 @@ ratings:
     - "**.hx"
 
 ```
+
+[Click here](https://docs.codeclimate.com/docs/ratings) to see how ratings work.
+
+### GitHub Integration
+
+- [Pull Request Integration](https://docs.codeclimate.com/docs/github-pull-request-integration)
+- [Issues Integration](https://docs.codeclimate.com/docs/github-issues-integration)
