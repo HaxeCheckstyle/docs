@@ -6,7 +6,7 @@ toc: false
 
 Checks that the local variable names conform to a format specified by the `format` property.
 
-*Local variables are the ones that are visible/accessible only within the block of code in which it appears.*
+{{site.data.alerts.info}} Local variables are the ones that are visible/accessible only within the block of code in which it appears. {{site.data.alerts.end}}
 
 ### Configuration
 

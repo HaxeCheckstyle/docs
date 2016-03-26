@@ -42,7 +42,6 @@ Checks for the placement of left curly braces (`{`) for code blocks. The policy 
 | `nl`   | new line |
 | `nlow` | new line on wrap |
 
-<br>
 
 When `ignoreEmptySingleline` is to `true` (default) empty blocks in a single line will not produce a warning.
 
@@ -86,9 +85,7 @@ public function new()
 }
 ```
 
-`Left curly should be at EOL (only linebreak or comment after curly)`
-
-<br>
+{{site.data.alerts.error}} Left curly should be at EOL (only linebreak or comment after curly) {{site.data.alerts.error}} 
 
 With `ignoreEmptySingleline` set to `false`
 
@@ -96,4 +93,4 @@ With `ignoreEmptySingleline` set to `false`
 public function donothing() {}
 ```
 
-{{site.data.alerts.error}} Left curly should be at EOL (only linebreak or comment after curly) {{site.data.alerts.end}}
+{{site.data.alerts.error}} Left curly should be at EOL (only linebreak or comment after curly)c
