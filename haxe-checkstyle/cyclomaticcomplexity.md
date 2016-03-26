@@ -4,7 +4,8 @@ keywords: metrics,cyclomatic,complexity
 toc: false
 ---
 
-Checks the complexity of methods using McCabe simplified [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) check. Complexity levels can be customised using `thresholds` property.
+Checks the complexity of methods using McCabe simplified [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) check.
+Complexity levels can be customised using `thresholds` property.
 
 ### Configuration
 
@@ -37,7 +38,6 @@ In general, for function level complexity:
 | `< 10`   | Easy to maintain  |
 | `11 - 20`    | Harder to maintain |
 | `> 20`    | Candidates for re-factoring/redesign  |
-
 
 The following function has a complexity score of **`8`**.
 

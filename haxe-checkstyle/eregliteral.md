@@ -6,7 +6,6 @@ toc: false
 
 Checks for usage of EReg literals (between ~/ and /) instead of new.
 
-
 ### Configuration
 
 ```json

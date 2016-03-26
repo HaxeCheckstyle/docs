@@ -23,7 +23,6 @@ Check to find any anonymous type structures used.
 var data:Data;
 ```
 
-
 ```java
 typedef Data = {
     var name:String;
