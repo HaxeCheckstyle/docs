@@ -42,7 +42,6 @@ Checks for the placement of left curly braces (`{`) for code blocks. The policy 
 | `nl`   | new line |
 | `nlow` | new line on wrap |
 
-
 When `ignoreEmptySingleline` is to `true` (default) empty blocks in a single line will not produce a warning.
 
 | Token Name            | Description          | Example                                   |
