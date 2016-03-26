@@ -37,4 +37,4 @@ typedef Data = {
 var data:{name:String, value:Int};
 ```
 
-{{site.data.alerts.error}} Anonymous structure found, it is advised to use a typedef instead "data" {{site.data.alerts.end}}
+{{site.data.alerts.error}} Anonymous structure "data" found, use "typedef" {{site.data.alerts.end}}

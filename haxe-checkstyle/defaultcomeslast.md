@@ -22,8 +22,8 @@ Check that the `default` is after all the cases in a `switch` statement. Haxe al
 ```java
 switch (a) {
 	case 1:
-    case 4:
-    default: trace("test");
+	case 4:
+	default: trace("test");
 }
 ```
 

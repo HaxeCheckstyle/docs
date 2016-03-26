@@ -1,0 +1,16 @@
+engines:
+  markdownlint:
+    enabled: true
+
+exclude_paths:
+  - css/**/*
+  - fonts/**/*
+  - js/**/*
+  - common_images/**/*
+  - _layouts/**/*
+  - _includes/**/*
+  - _data/**/*
+
+ratings:
+  paths:
+    - "**.md"
