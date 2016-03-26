@@ -9,9 +9,9 @@ homepage: true
 
 ![logo](https://raw.githubusercontent.com/HaxeCheckstyle/haxe-checkstyle/dev/resources/logo.png)
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://opensource.org/licenses/MIT) 
 [![Build Status](https://travis-ci.org/HaxeCheckstyle/haxe-checkstyle.svg?branch=master)](https://travis-ci.org/HaxeCheckstyle/haxe-checkstyle) 
-[![codecov.io](https://codecov.io/github/HaxeCheckstyle/haxe-checkstyle/coverage.svg?branch=dev)](https://codecov.io/github/HaxeCheckstyle/haxe-checkstyle?branch=dev)
+[![codecov.io](https://codecov.io/github/HaxeCheckstyle/haxe-checkstyle/coverage.svg?branch=dev)](https://codecov.io/github/HaxeCheckstyle/haxe-checkstyle?branch=dev) 
 [![Version](https://img.shields.io/badge/haxelib-v2.0.0-orange.svg)](http://lib.haxe.org/p/checkstyle/) 
 [![Gitter chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/HaxeCheckstyle/haxe-checkstyle)
 
@@ -19,7 +19,7 @@ homepage: true
 
 It automates the process of checking Haxe code to spare developers of this boring (but important) task.
 
-Code conventions improve readability, allowing team members to understand each others code better. 
+Code conventions improve readability, allowing team members to understand each others code better.
 
 Ideal for any project that want to enforce coding conventions.
 
