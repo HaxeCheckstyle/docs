@@ -40,7 +40,7 @@ Checks that whitespace is present or absent around a operators.
 | `arrowPolicy`          | `=>`                                                                |
 | `functionArgPolicy`    | `->`                                                                |
 
-### Available policy values are:
+Available policy values are:
 
 | Option     | Description |
 | --------- | ----------- |
@@ -50,7 +50,7 @@ Checks that whitespace is present or absent around a operators.
 | `none`    | enforce no whitespace before and after operator |
 | `ignore`  | skip checks |
 
-### For unary operators only whitespace between operator and operand is checked, available policy values are:
+For unary operators only whitespace between operator and operand is checked, available policy values are:
 
 | Option     | Description |
 | --------- | ----------- |
