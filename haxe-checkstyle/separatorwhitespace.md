@@ -28,7 +28,7 @@ Checks that whitespace is present or absent around a separators.
 
 Available policy values are:
 
-| Option     | Description |
+| Option    | Description |
 | --------- | ----------- |
 | `around`  | enforce whitespace before and after operator |
 | `before`  | enforce whitespace before and no whitespace after operator |

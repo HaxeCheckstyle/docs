@@ -11,9 +11,7 @@ The following are the recommended links to create and test and regular expressio
 
 ### Samples
 
-| Expression                      | Description                                               |
-| ------------------------------- | --------------------------------------------------------- |
-| `^I[A-Z]+[a-zA-Z0-9]*$`         | `PascalCase` or `UpperCamelCase` starting with letter `I` |
-| `^[A-Z]+[a-zA-Z0-9]*$`          | `PascalCase` or `UpperCamelCase`                          |
-| `^[a-z][a-zA-Z0-9]*$`           | `camelCase`                                               |
-| `^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$` | `UpperCase` separated by `_`                              |
+- `^[a-z][a-zA-Z0-9]*$` - `camelCase`
+- `^I[A-Z]+[a-zA-Z0-9]*$` - `PascalCase` or `UpperCamelCase` starting with letter `I`
+- `^[A-Z]+[a-zA-Z0-9]*$` - `PascalCase` or `UpperCamelCase`
+- `^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$` - `UpperCase` separated by `_`
