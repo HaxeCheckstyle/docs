@@ -4,7 +4,8 @@ keywords: literal, multiple, string
 toc: false
 ---
 
-Checks for multiple occurrences of the same string literal within a single file. Code duplication makes maintenance more difficult, so it's better to replace the multiple occurrences with a constant.
+Checks for multiple occurrences of the same string literal within a single file.
+Code duplication makes maintenance more difficult, so it's better to replace the multiple occurrences with a constant.
 
 ### Configuration
 
