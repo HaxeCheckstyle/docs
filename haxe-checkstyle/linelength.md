@@ -7,7 +7,7 @@ toc: false
 
 Checks for long lines. Long lines are hard to read.
 
-#### Configuration
+### Configuration
 
 ```json
 {
