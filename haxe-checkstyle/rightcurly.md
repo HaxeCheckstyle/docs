@@ -10,28 +10,28 @@ Checks for placement of right curly braces.
 
 ```json
 {
-	"type": "RightCurly",
-	"props": {
-		"severity": "WARNING",
-		"option": "aloneorsingle",
-		"tokens": [
-			"CLASS_DEF",
-			"ENUM_DEF",
-			"ABSTRACT_DEF",
-			"TYPEDEF_DEF",
-			"INTERFACE_DEF",
-			"OBJECT_DECL",
-			"FUNCTION",
-			"FOR",
-			"IF",
-			"WHILE",
-			"SWITCH",
-			"TRY",
-			"CATCH",
-			"REIFICATION",
-			"ARRAY_COMPREHENSION"
-		]
-	}
+    "type": "RightCurly",
+    "props": {
+        "severity": "WARNING",
+        "option": "aloneorsingle",
+        "tokens": [
+            "CLASS_DEF",
+            "ENUM_DEF",
+            "ABSTRACT_DEF",
+            "TYPEDEF_DEF",
+            "INTERFACE_DEF",
+            "OBJECT_DECL",
+            "FUNCTION",
+            "FOR",
+            "IF",
+            "WHILE",
+            "SWITCH",
+            "TRY",
+            "CATCH",
+            "REIFICATION",
+            "ARRAY_COMPREHENSION"
+        ]
+    }
 }
 ```
 

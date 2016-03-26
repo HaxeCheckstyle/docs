@@ -10,11 +10,11 @@ Checks for whitespace after a token.
 
 ```json
 {
-	"type": "WhitespaceAfter",
-	"props": {
-		"severity": "WARNING",
-		"tokens": [ ",", ";" ]
-	}
+    "type": "WhitespaceAfter",
+    "props": {
+        "severity": "WARNING",
+        "tokens": [ ",", ";" ]
+    }
 }
 ```
 
@@ -22,7 +22,7 @@ Checks for whitespace after a token.
 
 ```java
 var test = [0, 1, 2,
-		3, 5, 6];
+        3, 5, 6];
 ```
 
 ### Invalid

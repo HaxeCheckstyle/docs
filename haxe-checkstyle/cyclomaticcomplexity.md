@@ -43,27 +43,27 @@ The following function has a complexity score of **`8`**.
 
 ```java
 public function test() {
-	var a = 1;
-	if (a == 1) {
-		for (i in 0 ... 10) {
-			for (j in 0 ... 100) {
-				if (i == 5) {
-					if (j == 50) {
-						trace(j);
-					}
-				}
-			}
-		}
-	}
+    var a = 1;
+    if (a == 1) {
+        for (i in 0 ... 10) {
+            for (j in 0 ... 100) {
+                if (i == 5) {
+                    if (j == 50) {
+                        trace(j);
+                    }
+                }
+            }
+        }
+    }
 
-	switch (a) {
-		case 1:
-			trace(1);
-		case 2:
-			trace(2);
-		default:
-			trace("default");
-	}
+    switch (a) {
+        case 1:
+            trace(1);
+        case 2:
+            trace(2);
+        default:
+            trace("default");
+    }
 }
 ```
 

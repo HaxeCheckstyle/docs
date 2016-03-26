@@ -3,13 +3,12 @@
 root = true
 
 [*]
-indent_style = tab
 indent_size = 4
 insert_final_newline = false
 trim_trailing_whitespace = false
 
-[*.hx]
-end_of_line = lf
+[*.md]
+indent_style = space
 
 [*.json]
-indent_size = 4
+indent_style = tab

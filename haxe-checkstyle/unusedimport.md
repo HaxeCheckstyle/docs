@@ -10,19 +10,19 @@ Checks for unused or duplicate imports.
 
 ```json
 {
-	"type": "UnusedImports",
-	"props": {
-		"severity": "WARNING",
-		"ignoreModules": [
-			"haxe.macro.Type"
-		],
-		"moduleTypeMap": {
-			"haxe.macro.Expr": [
-				"ExprDef",
-				"ComplexType"
-			]
-		}
-	}
+    "type": "UnusedImports",
+    "props": {
+        "severity": "WARNING",
+        "ignoreModules": [
+            "haxe.macro.Type"
+        ],
+        "moduleTypeMap": {
+            "haxe.macro.Expr": [
+                "ExprDef",
+                "ComplexType"
+            ]
+        }
+    }
 }
 ```
 
@@ -40,8 +40,8 @@ import com.test.Type;
 import com.project.sub.Type2;
 
 class Main extends Type {
-	var type:Type2;
-	var exprDef:ExprDef;
+    var type:Type2;
+    var exprDef:ExprDef;
 }
 ```
 

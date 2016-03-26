@@ -13,7 +13,7 @@ Checks for unnecessary constructor in classes that contain only static methods o
     "type": "Interface",
     "props": {
         "allowProperties": false,
-		"allowMarkerInterfaces": true,
+        "allowMarkerInterfaces": true,
         "severity": "INFO"
     }
 }

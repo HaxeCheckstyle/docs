@@ -10,12 +10,12 @@ Checks for multiple occurrences of the same string literal within a single file.
 
 ```json
 {
-	"type": "MultipleStringLiterals",
-	"props": {
-		"minLength": 2,
-		"ignore": "^\\s+$",
-		"allowDuplicates": 2,
-		"severity": "WARNING"
-	}
+    "type": "MultipleStringLiterals",
+    "props": {
+        "minLength": 2,
+        "ignore": "^\\s+$",
+        "allowDuplicates": 2,
+        "severity": "WARNING"
+    }
 }
 ```

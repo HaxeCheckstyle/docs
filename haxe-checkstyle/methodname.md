@@ -15,12 +15,12 @@ Checks that method names conform to a format specified by the `format` property.
         "severity": "ERROR",
         "format": "^[a-z][a-zA-Z0-9]*$",
         "tokens": [
-		"PUBLIC",
-		"PRIVATE",
-		"STATIC",
-		"NOTSTATIC",
-		"INLINE",
-		"NOTINLINE"
+        "PUBLIC",
+        "PRIVATE",
+        "STATIC",
+        "NOTSTATIC",
+        "INLINE",
+        "NOTINLINE"
         ]
     }
 }

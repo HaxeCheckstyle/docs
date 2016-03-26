@@ -12,10 +12,10 @@ Checks that a local variable or a parameter does not shadow a field that is defi
 {
     "type": "HiddenField",
     "props": {
-	"ignoreSetter": true,
-	"ignoreFormat": "^(main|run)$",
-	"ignoreConstructorParameter": true,
-	"severity": "ERROR"
+    "ignoreSetter": true,
+    "ignoreFormat": "^(main|run)$",
+    "ignoreConstructorParameter": true,
+    "severity": "ERROR"
     }
 }
 ```

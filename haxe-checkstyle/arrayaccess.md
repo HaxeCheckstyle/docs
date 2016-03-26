@@ -13,7 +13,7 @@ Checks for spaces before array access or inside array elements. Finds code like 
     "type": "ArrayAccess",
     "props": {
         "spaceBefore": false,
-		"spaceInside": false,
+        "spaceInside": false,
         "severity": "INFO"
     }
 }

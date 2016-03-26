@@ -10,9 +10,9 @@ Checks for trace calls in code.
 
 ```json
 {
-	"type": "Trace",
-	"props": {
-		"severity": "INFO"
-	}
+    "type": "Trace",
+    "props": {
+        "severity": "INFO"
+    }
 }
 ```

@@ -10,11 +10,11 @@ Checks for whitespace around a token.
 
 ```json
 {
-	"type": "WhitespaceAround",
-	"props": {
-		"severity": "WARNING",
-		"tokens": [ "=", "+" ]
-	}
+    "type": "WhitespaceAround",
+    "props": {
+        "severity": "WARNING",
+        "tokens": [ "=", "+" ]
+    }
 }
 ```
 

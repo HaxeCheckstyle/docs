@@ -10,14 +10,14 @@ Checks line wrapping with separators.
 
 ```json
 {
-	"type": "SeparatorWrap",
-	"props": {
-		"severity": "INFO",
-		"option": "eol",
-		"tokens": [
-			".", ","
-		]
-	}
+    "type": "SeparatorWrap",
+    "props": {
+        "severity": "INFO",
+        "option": "eol",
+        "tokens": [
+            ".", ","
+        ]
+    }
 }
 ```
 
@@ -28,13 +28,13 @@ Available options are end of line (`eol`) and new line (`nl`)
 option set to `eol`
 
 ```
-	val = test.
-		text();
+    val = test.
+        text();
 ```
 
 option set to `nl`
 
 ```
-	val = test
-		.text();
+    val = test
+        .text();
 ```

@@ -10,10 +10,10 @@ Check that the `default` is after all the cases in a `switch` statement. Haxe al
 
 ```json
 {
-	"type": "DefaultComesLast",
-	"props": {
-		"severity": "WARNING"
-	}
+    "type": "DefaultComesLast",
+    "props": {
+        "severity": "WARNING"
+    }
 }
 ```
 
@@ -21,9 +21,9 @@ Check that the `default` is after all the cases in a `switch` statement. Haxe al
 
 ```java
 switch (a) {
-	case 1:
-	case 4:
-	default: trace("test");
+    case 1:
+    case 4:
+    default: trace("test");
 }
 ```
 
@@ -31,9 +31,9 @@ switch (a) {
 
 ```java
 switch (a) {
-	case 1:
-	default: trace("test");
-	case 4:
+    case 1:
+    default: trace("test");
+    case 4:
 }
 ```
 

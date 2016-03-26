@@ -34,7 +34,7 @@ typedef Data = {
 ### Invalid
 
 ```java
-var data:{name:String, value:Int};
+var data:{ name:String, value:Int };
 ```
 
 {{site.data.alerts.error}} Anonymous structure "data" found, use "typedef" {{site.data.alerts.end}}

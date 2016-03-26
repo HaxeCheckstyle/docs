@@ -87,21 +87,21 @@ Classes/Packages can be excluded as shown below for each check:
 
 ```json
 "exclude": {
-	"all": [],
- 	"Dynamic": [
- 		"checkstyle.Main",
- 		"checkstyle.Checker"
- 	],
- 	"MultipleStringLiterals": [
- 		"checks",
- 		"token"
- 	],
- 	"NestedForDepth": [
- 		"TestMain"
- 	],
- 	"MemberName": [
- 		"checkstyle.Main"
- 	]
+    "all": [],
+     "Dynamic": [
+         "checkstyle.Main",
+         "checkstyle.Checker"
+     ],
+     "MultipleStringLiterals": [
+         "checks",
+         "token"
+     ],
+     "NestedForDepth": [
+         "TestMain"
+     ],
+     "MemberName": [
+         "checkstyle.Main"
+     ]
  }
 ```
 

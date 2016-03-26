@@ -23,8 +23,8 @@ The following is a sample `Dynamic` usage.
 var count:Dynamic;
 
 function calc(val1:Dynamic, val2:Dynamic):Dynamic {
-	count = 25;
-	return count;
+    count = 25;
+    return count;
 }
 ```
 

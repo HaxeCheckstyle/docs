@@ -10,13 +10,13 @@ Checks that whitespace is present or absent around a separators.
 
 ```json
 {
-	"type": "SeparatorWhitespace",
-	"props": {
-		"severity": "WARNING",
-		"dotPolicy": "around",
-		"commaPolicy": "none",
-		"semicolonPolicy": "none"
-	}
+    "type": "SeparatorWhitespace",
+    "props": {
+        "severity": "WARNING",
+        "dotPolicy": "around",
+        "commaPolicy": "none",
+        "semicolonPolicy": "none"
+    }
 }
 ```
 

@@ -11,7 +11,7 @@ Checks for long lines. Long lines are hard to read.
 
 ```json
 {
-    "type": "LineLength",
+   "type": "LineLength",
     "props": {
         "severity": "ERROR",
         "max": 160

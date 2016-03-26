@@ -10,10 +10,10 @@ Checks that each variable declaration is in its own statement and on its own lin
 
 ```json
 {
-	"type": "MultipleVariableDeclarations",
-	"props": {
-		"severity": "WARNING"
-	}
+    "type": "MultipleVariableDeclarations",
+    "props": {
+        "severity": "WARNING"
+    }
 }
 ```
 

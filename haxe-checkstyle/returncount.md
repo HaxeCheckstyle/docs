@@ -10,11 +10,11 @@ Restricts the number of return statements in methods (2 by default). Ignores met
 
 ```json
 {
-	"type": "ReturnCount",
-	"props": {
+    "type": "ReturnCount",
+    "props": {
         "ignoreFormat": "^$",
-		"max": 2,
-		"severity": "WARNING"
-	}
+        "max": 2,
+        "severity": "WARNING"
+    }
 }
 ```

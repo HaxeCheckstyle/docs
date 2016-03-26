@@ -10,10 +10,10 @@ Checks for assignments in subexpressions, such as in `if ((a=b) > 0) return;`.
 
 ```json
 {
-	"type": "InnerAssignment",
-	"props": {
-		"severity": "WARNING"
-	}
+    "type": "InnerAssignment",
+    "props": {
+        "severity": "WARNING"
+    }
 }
 ```
 
@@ -29,8 +29,8 @@ while ((a=b) > 0) b=c;
 ```java
 if (a = b) a = c;
 switch a=b {
-	case 0: return true;
-	default: return false;
+    case 0: return true;
+    default: return false;
 }
 ```
 

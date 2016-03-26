@@ -10,11 +10,11 @@ Checks the letter case of hexadecimal literals.
 
 ```json
 {
-	"type": "HexadecimalLiteral",
-	"props": {
-		"severity": "INFO",
-		"option": "upperCase"
-	}
+    "type": "HexadecimalLiteral",
+    "props": {
+        "severity": "INFO",
+        "option": "upperCase"
+    }
 }
 ```
 

@@ -10,29 +10,29 @@ Checks for the placement of left curly braces (`{`) for code blocks. The policy 
 
 ```json
 {
-	"type": "LeftCurly",
-	"props": {
-		"severity": "WARNING",
-		"option": "eol",
-		"ignoreEmptySingleline": "true",
-		"tokens": [
-			"CLASS_DEF",
-			"ENUM_DEF",
-			"ABSTRACT_DEF",
-			"TYPEDEF_DEF",
-			"INTERFACE_DEF",
-			"OBJECT_DECL",
-			"FUNCTION",
-			"FOR",
-			"IF",
-			"WHILE",
-			"SWITCH",
-			"TRY",
-			"CATCH",
-			"REIFICATION",
-			"ARRAY_COMPREHENSION"
-		]
-	}
+    "type": "LeftCurly",
+    "props": {
+        "severity": "WARNING",
+        "option": "eol",
+        "ignoreEmptySingleline": "true",
+        "tokens": [
+            "CLASS_DEF",
+            "ENUM_DEF",
+            "ABSTRACT_DEF",
+            "TYPEDEF_DEF",
+            "INTERFACE_DEF",
+            "OBJECT_DECL",
+            "FUNCTION",
+            "FOR",
+            "IF",
+            "WHILE",
+            "SWITCH",
+            "TRY",
+            "CATCH",
+            "REIFICATION",
+            "ARRAY_COMPREHENSION"
+        ]
+    }
 }
 ```
 
@@ -70,7 +70,7 @@ If option was set to `eol`, with `ignoreEmptySingleline` set to `true`
 
 ```java
 public function new() {
-	super();
+    super();
 }
 public function donothing() {}
 ```
@@ -82,7 +82,7 @@ If option was set to `eol`
 ```java
 public function new()
 {
-	super();
+    super();
 }
 ```
 
