@@ -84,7 +84,7 @@ public function new()
 }
 ```
 
-{{site.data.alerts.error}} Left curly should be at EOL (only linebreak or comment after curly) {{site.data.alerts.error}}
+{{site.data.alerts.error}} Left curly should be at EOL (only linebreak or comment after curly) {{site.data.alerts.end}}
 
 With `ignoreEmptySingleline` set to `false`
 
@@ -92,4 +92,4 @@ With `ignoreEmptySingleline` set to `false`
 public function donothing() {}
 ```
 
-{{site.data.alerts.error}} Left curly should be at EOL (only linebreak or comment after curly)c
+{{site.data.alerts.error}} Left curly should be at EOL (only linebreak or comment after curly) {{site.data.alerts.end}}
