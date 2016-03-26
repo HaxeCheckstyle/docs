@@ -4,8 +4,6 @@ engines:
     checks:
         MD002:
             enabled: false
-        MD013:
-            enabled: false
 
 exclude_paths:
   - css/**/*

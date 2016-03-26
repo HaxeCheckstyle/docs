@@ -84,7 +84,6 @@ haxelib run checkstyle -s src -s samples
 
 Classes/Packages can be excluded as shown below for each check:
 
-
 ```json
 "exclude": {
     "all": [],
