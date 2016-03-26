@@ -12,6 +12,9 @@ entries:
       - title: Setup
         url: /haxe-checkstyle/setup.html
         output: web
+      - title: RegEx Reference
+        url: /haxe-checkstyle/regex.html
+        output: web
 
   - title: Integrations
     output: web
