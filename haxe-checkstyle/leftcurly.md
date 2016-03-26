@@ -84,7 +84,7 @@ public function new()
 }
 ```
 
-{{site.data.alerts.error}} Left curly should be at EOL (only linebreak or comment after curly) {{site.data.alerts.error}} 
+{{site.data.alerts.error}} Left curly should be at EOL (only linebreak or comment after curly) {{site.data.alerts.error}}
 
 With `ignoreEmptySingleline` set to `false`
 

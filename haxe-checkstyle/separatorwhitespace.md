@@ -26,8 +26,6 @@ Checks that whitespace is present or absent around a separators.
 | `commaPolicy`          | `,`           |
 | `semicolonPolicy`      | `;`           |
 
-<br>
-
 Available policy values are:
 
 | Option     | Description |
@@ -37,4 +35,3 @@ Available policy values are:
 | `after`   | enforce no whitespace before and whitespace after operator |
 | `none`    | enforce no whitespace before and after operator |
 | `ignore`  | skip checks |
-
