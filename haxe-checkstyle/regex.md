@@ -9,9 +9,27 @@ The following are the recommended links to create and test and regular expressio
 - [regexr.com](http://regexr.com/)
 - [regex101.com](https://regex101.com/)
 
-### Samples
+## Samples
 
-- `^[a-z][a-zA-Z0-9]*$` - `camelCase`
-- `^I[A-Z]+[a-zA-Z0-9]*$` - `PascalCase` or `UpperCamelCase` starting with letter `I`
-- `^[A-Z]+[a-zA-Z0-9]*$` - `PascalCase` or `UpperCamelCase`
-- `^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$` - `UpperCase` separated by `_`
+### camelCase
+
+```
+^[a-z][a-zA-Z0-9]*$
+
+### PascalCase or UpperCamelCase
+
+```
+^[A-Z]+[a-zA-Z0-9]*$
+```
+
+### PascalCase or UpperCamelCase starting with letter I
+
+```
+^I[A-Z]+[a-zA-Z0-9]*$
+```
+
+### UpperCase separated by _
+
+```
+^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$
+```
