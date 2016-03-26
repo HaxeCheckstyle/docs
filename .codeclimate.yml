@@ -1,6 +1,9 @@
 engines:
   markdownlint:
     enabled: true
+    checks:
+        MD002:
+            enabled: false
 
 exclude_paths:
   - css/**/*
