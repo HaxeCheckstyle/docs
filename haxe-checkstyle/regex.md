@@ -11,7 +11,7 @@ The following are the recommended links to create and test and regular expressio
 
 ## Samples
 
-### camelCase
+### `camelCase`
 
 ```
 ^[a-z][a-zA-Z0-9]*$
