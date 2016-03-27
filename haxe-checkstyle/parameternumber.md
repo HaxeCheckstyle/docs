@@ -23,5 +23,4 @@ Checks the number of parameters of a method.
 
 Ignore number of parameters for overridden methods.
 
-{{site.data.alerts.info}} In some cases, when overriding methods from third party libraries developer will not have control over number of parameters.
-ignoreOverriddenMethods is useful in cases like that. {{site.data.alerts.end}}
+{{site.data.alerts.info}} In some cases, when overriding methods from third party libraries developer will not have control over number of parameters. {{site.data.alerts.end}}
