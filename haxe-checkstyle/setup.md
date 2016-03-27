@@ -33,6 +33,7 @@ haxelib run checkstyle
 [--default-config] <path> : Generate a default config and exit
 [-nostyle]                : To omit styling in output summary
 [-report]                 : Show report [DEPRECATED]
+[-showMissingChecks]      : Show checks missing from active config
 ```
 
 ### Rules
