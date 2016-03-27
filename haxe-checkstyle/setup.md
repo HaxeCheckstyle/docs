@@ -127,4 +127,4 @@ You can also omit multiple checks.
 @SuppressWarnings("checkstyle:Dynamic", "checkstyle:LineLength")
 ```
 
-{{site.data.alerts.note}} Note that `@SuppressWarnings` may not work on all checks. {{site.data.alerts.end}}
+{{site.data.alerts.note}} Note that @SuppressWarnings may not work on all checks. {{site.data.alerts.end}}
