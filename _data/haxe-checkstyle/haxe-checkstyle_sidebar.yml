@@ -22,7 +22,7 @@ entries:
       - title: Code Climate
         url: /haxe-checkstyle/codeclimate.html
         output: web
-      - title: Hudson & Bamboo
+      - title: Hudson, Jenkins & Bamboo
         url: /haxe-checkstyle/hudsonandbamboo.html
         output: web
 
