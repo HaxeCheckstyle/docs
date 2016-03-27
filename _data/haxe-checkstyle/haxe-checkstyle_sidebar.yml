@@ -161,6 +161,10 @@ entries:
       url: /haxe-checkstyle/multiplestringliterals.html
       output: web
 
+    - title: String Literal
+      url: /haxe-checkstyle/stringliteral.html
+      output: web
+
   - title: Metrics
     output: web
     items:
