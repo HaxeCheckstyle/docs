@@ -12,6 +12,6 @@ If you want to style the generated XML you can set XSLT style for the XML genera
 haxelib run checkstyle -s src -c config.json -p report.xml -x report.xsl
 ```
 
-### Sample Hudson Trend
+### Sample Trend Chart
 
 ![img](images/hudson.png)
