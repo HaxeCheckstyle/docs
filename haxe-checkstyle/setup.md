@@ -22,7 +22,7 @@ haxelib run checkstyle
 ```
 [-s | --source] <path>    : Set source folder to process (multiple allowed)
 [-c | --config] <path>    : Set config file (default: checkstyle.json)
-[-e | --exclude] <path>   : Set exclude config file (default: checkstyle-exclude.json)
+[-e | --exclude] <path>   : Set exclude file (default: checkstyle-exclude.json)
 [-r | --reporter] <name>  : Set reporter (xml, json or text, default: text)
 [-p | --path] <path>      : Set reporter output path
 [-x | --xslt] <style>     : Set reporter style (XSLT)
@@ -33,7 +33,7 @@ haxelib run checkstyle
 [--default-config] <path> : Generate a default config and exit
 [-nostyle]                : To omit styling in output summary
 [-report]                 : Show report [DEPRECATED]
-[-showMissingChecks]      : Show checks missing from active config
+[--show-missing-checks]   : Show checks missing from active config
 ```
 
 ### Rules
