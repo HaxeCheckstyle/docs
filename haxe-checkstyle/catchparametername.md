@@ -17,3 +17,9 @@ Checks that catch parameter names conform to a format specified by the `format` 
     }
 }
 ```
+
+The following `format` regex only allows `e`, `t` or `ex` as catch parameter names.
+
+```
+^(e|t|ex)$
+```
