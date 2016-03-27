@@ -44,17 +44,17 @@ It's recommended to define your own set of rules based on the needs of your proj
 
 The library will automatically look for `checkstyle.json` at root level where all the rules and excludes can be defined.
 
-By default the severity of all the checks was set to **INFO**. You can define the severity of each check in the custom configuration of your project.
+The default severity for all checks can be defined using `defaultSeverity` property and can be overridden for each check as shown below.
 
-The following is a sample `.json` with 2 rules.
+The following is a sample `checkstyle.json` with 2 rules.
 
 ```json
 {
+    "defaultSeverity": "INFO",
     "checks": [
         {
             "type": "EmptyLines",
             "props": {
-                "severity": "INFO",
                 "maxConsecutiveEmptyLines": 1
             }
         },
