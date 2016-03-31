@@ -3,7 +3,9 @@ title: Code Climate
 toc: false
 ---
 
-Create `.codeclimate.yml` and place it in your root directory.
+Haxe Checkstyle is available on the Code Climate platform (free for open source projects).
+
+It requires a `.codeclimate.yml` file and an optional but recommended `checkstyle.json` file to be added to the root of your repository.
 
 The engine will automatically pick up `checkstyle.json` configuration if it's available in the root directory.
 
@@ -34,6 +36,12 @@ You can add multiple engines in `.codeclimate.yml`. [Click here](https://docs.co
 [Click here](https://docs.codeclimate.com/docs/ratings) to see how ratings work.
 
 ### GitHub Integration
+
+Immediate results, right in your pull requests.
+
+![img](https://codeclimate.com/marketing/images/features/pull_requests-67ad7029.png)
+
+More information:
 
 - [Pull Request Integration](https://docs.codeclimate.com/docs/github-pull-request-integration)
 - [Issues Integration](https://docs.codeclimate.com/docs/github-issues-integration)
