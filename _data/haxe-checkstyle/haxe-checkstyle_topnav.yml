@@ -16,6 +16,8 @@ topnav_dropdowns:
       items:
         - title: regexr.com
           external_url: http://regexr.com
+          output: web
 
         - title: regex101.com
           external_url: https://regex101.com
+          output: web
