@@ -16,6 +16,8 @@ sidebar_tagline:
 sidebar_version:
 theme_file: theme-orange.css
 
+google_analytics: UA-75768666-1
+
 # the algolia entries here are experimental only.
 
 #gems:
