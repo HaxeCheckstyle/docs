@@ -26,10 +26,9 @@ else {
     return true;
 }
 ```
-        
+
 could be written as
 
 ```java
 return !isValid();
 ```
-        
