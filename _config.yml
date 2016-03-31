@@ -4,6 +4,7 @@ output: web
 destination: doc_outputs/haxe-checkstyle
 topnav_title: Haxe Checkstyle Documentation
 site_title: Haxe Checkstyle Documentation
+homepage_title: Home
 url: /docs/
 project_folder: haxe-checkstyle
 company_name: Haxe Checkstyle
