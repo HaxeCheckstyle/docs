@@ -1,6 +1,5 @@
 ---
 title: Variable Initialisation
-keywords: variable, initialisation
 toc: false
 ---
 

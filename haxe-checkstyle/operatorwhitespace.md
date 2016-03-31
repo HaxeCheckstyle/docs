@@ -1,6 +1,5 @@
 ---
 title: Operator Whitespace
-keywords: whitespace, operator
 toc: false
 ---
 

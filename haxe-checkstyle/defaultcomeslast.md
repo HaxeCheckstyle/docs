@@ -1,6 +1,5 @@
 ---
 title: Default Comes Last
-keywords: switch, default
 toc: false
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Multiple String Literals
-keywords: literal, multiple, string
 toc: false
 ---
 

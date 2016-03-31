@@ -1,6 +1,5 @@
 ---
 title: Type
-keywords: type
 toc: false
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Indentation Character
-keywords: whitespace,indentation
 toc: false
 ---
 

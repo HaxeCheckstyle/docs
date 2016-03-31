@@ -1,6 +1,5 @@
 ---
 title: Array Access
-keywords: array
 toc: false
 ---
 

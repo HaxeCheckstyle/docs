@@ -1,6 +1,5 @@
 ---
 title: Hudson, Jenkins & Bamboo
-keywords: hudson, jenkins, bamboo, integration
 toc: false
 ---
 

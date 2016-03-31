@@ -1,6 +1,5 @@
 ---
 title: Constant Name
-keywords: constant,name
 toc: false
 ---
 

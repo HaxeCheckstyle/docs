@@ -1,6 +1,5 @@
 ---
 title: Type Name
-keywords: naming, type, name
 toc: false
 ---
 

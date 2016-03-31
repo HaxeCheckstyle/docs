@@ -1,6 +1,5 @@
 ---
 title: Spacing
-keywords: whitespace, spacing
 toc: false
 ---
 

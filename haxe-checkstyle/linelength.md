@@ -1,6 +1,5 @@
 ---
 title: Line Length
-keywords: line, length,
 toc: false
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: String Literal
-keywords: literal, string
 toc: false
 ---
 

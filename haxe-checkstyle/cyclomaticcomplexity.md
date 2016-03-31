@@ -1,6 +1,5 @@
 ---
 title: Cyclomatic Complexity
-keywords: metrics,cyclomatic,complexity
 toc: false
 ---
 

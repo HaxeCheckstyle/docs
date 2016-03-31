@@ -1,6 +1,5 @@
 ---
 title: Empty Block
-keywords: emptyblock
 toc: false
 ---
 

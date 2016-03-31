@@ -1,6 +1,5 @@
 ---
 title: Inner Assignment
-keywords: coding, inner assignment
 toc: false
 ---
 

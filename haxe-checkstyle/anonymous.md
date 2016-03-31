@@ -1,6 +1,5 @@
 ---
 title: Anonymous
-keywords: anonymous
 toc: false
 ---
 

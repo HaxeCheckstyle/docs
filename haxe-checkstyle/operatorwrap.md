@@ -1,6 +1,5 @@
 ---
 title: Operator Wrap
-keywords: whitespace, operator, wrap
 toc: false
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: Setup
-tags: [setup, installation, configuration]
-type: intro
 toc: false
 ---
 

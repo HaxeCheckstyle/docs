@@ -1,6 +1,5 @@
 ---
 title: Avoid Inline Conditionals
-keywords: inline conditionals
 toc: false
 ---
 

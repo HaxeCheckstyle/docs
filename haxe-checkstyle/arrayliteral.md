@@ -1,6 +1,5 @@
 ---
 title: Array Literal
-keywords: array, literal
 toc: false
 ---
 

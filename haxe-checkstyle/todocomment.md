@@ -1,6 +1,5 @@
 ---
 title: TODO Comment
-keywords: comments, todo
 toc: false
 ---
 

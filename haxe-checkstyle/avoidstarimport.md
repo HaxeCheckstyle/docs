@@ -1,6 +1,5 @@
 ---
 title: Avoid Star Import
-keywords: import
 toc: false
 ---
 

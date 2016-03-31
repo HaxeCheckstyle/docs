@@ -1,6 +1,5 @@
 ---
 title: Dynamic
-keywords: dynamic
 toc: false
 ---
 

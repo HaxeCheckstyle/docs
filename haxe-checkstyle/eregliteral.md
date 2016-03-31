@@ -1,6 +1,5 @@
 ---
 title: EReg Literal
-keywords: regex,literal
 toc: false
 ---
 

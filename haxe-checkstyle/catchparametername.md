@@ -1,6 +1,5 @@
 ---
 title: Catch Parameter Name
-keywords: naming, catch, parameter, name
 toc: false
 ---
 

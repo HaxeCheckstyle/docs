@@ -1,6 +1,5 @@
 ---
 title: Magic Number
-keywords: magic, number
 toc: false
 ---
 

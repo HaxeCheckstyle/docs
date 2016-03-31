@@ -1,6 +1,5 @@
 ---
 title: Hexadecimal Literal
-keywords: hexadecimal, literal
 toc: false
 ---
 

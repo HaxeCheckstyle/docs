@@ -1,6 +1,5 @@
 ---
 title: Tab for Aligning
-keywords: whitespace, tab, aligning
 toc: false
 ---
 

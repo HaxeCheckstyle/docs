@@ -1,6 +1,5 @@
 ---
 title: Nullable Parameter
-keywords: null, parameter
 toc: false
 ---
 

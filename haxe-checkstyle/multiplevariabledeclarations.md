@@ -1,6 +1,5 @@
 ---
 title: Multiple Variable Declarations
-keywords: multiple, variable, declarations
 toc: false
 ---
 

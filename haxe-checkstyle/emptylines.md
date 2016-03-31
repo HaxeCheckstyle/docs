@@ -1,6 +1,5 @@
 ---
 title: Empty Lines
-keywords: lines
 toc: false
 ---
 

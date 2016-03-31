@@ -1,6 +1,5 @@
 ---
 title: Whitespace After
-keywords: whitespace, after
 toc: false
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: RegEx Reference
-keywords: regex
 toc: false
 ---
 

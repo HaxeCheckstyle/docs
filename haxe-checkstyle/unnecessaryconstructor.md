@@ -1,6 +1,5 @@
 ---
 title: Unnecessary Constructor
-keywords: unnecessary, constructor
 toc: false
 ---
 

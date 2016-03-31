@@ -1,6 +1,5 @@
 ---
 title: Left Curly
-keywords: left, curly
 toc: false
 ---
 

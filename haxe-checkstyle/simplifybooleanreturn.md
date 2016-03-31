@@ -1,6 +1,5 @@
 ---
 title: Simplify Boolean Return
-keywords: boolean, return
 toc: false
 ---
 

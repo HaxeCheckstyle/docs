@@ -1,6 +1,5 @@
 ---
 title: Empty Package
-keywords: package
 toc: false
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Redundant Modifier
-keywords: modifier, redundant
 toc: false
 ---
 

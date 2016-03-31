@@ -1,6 +1,5 @@
 ---
 title: Member Name
-keywords: naming, member, name
 toc: false
 ---
 

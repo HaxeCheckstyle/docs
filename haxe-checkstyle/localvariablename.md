@@ -1,6 +1,5 @@
 ---
 title: Local Variable Name
-keywords: naming, local, variable, name
 toc: false
 ---
 

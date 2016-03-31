@@ -1,6 +1,5 @@
 ---
 title: Trailing Whitespace
-keywords: whitespace, trailing
 toc: false
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Parameter Name
-keywords: naming, parameter, name
 toc: false
 ---
 

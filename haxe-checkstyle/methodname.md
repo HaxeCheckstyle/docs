@@ -1,6 +1,5 @@
 ---
 title: Method Name
-keywords: naming, method, name
 toc: false
 ---
 

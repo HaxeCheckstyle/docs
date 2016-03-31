@@ -1,6 +1,5 @@
 ---
 title: Whitespace Around
-keywords: whitespace, around
 toc: false
 ---
 

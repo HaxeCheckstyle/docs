@@ -1,6 +1,5 @@
 ---
 title: File Length
-keywords: file,length
 toc: false
 ---
 

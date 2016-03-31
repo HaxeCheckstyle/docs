@@ -1,6 +1,5 @@
 ---
 title: Hidden Field
-keywords: coding, hidden field
 toc: false
 ---
 

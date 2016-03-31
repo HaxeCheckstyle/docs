@@ -1,6 +1,5 @@
 ---
 title: Code Climate
-keywords: codeclimate, integration
 toc: false
 ---
 

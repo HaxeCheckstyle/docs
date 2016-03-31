@@ -1,6 +1,5 @@
 ---
 title: Parameter Number
-keywords: parameter, number
 toc: false
 ---
 

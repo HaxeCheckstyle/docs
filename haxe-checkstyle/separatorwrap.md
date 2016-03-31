@@ -1,6 +1,5 @@
 ---
 title: Separator Wrap
-keywords: whitespace, separator, wrap
 toc: false
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Simplify Boolean Expression
-keywords: boolean, expression
 toc: false
 ---
 

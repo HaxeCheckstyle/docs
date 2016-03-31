@@ -1,6 +1,5 @@
 ---
 title: Separator Whitespace
-keywords: whitespace, separator
 toc: false
 ---
 

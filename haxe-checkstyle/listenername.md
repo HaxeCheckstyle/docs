@@ -1,6 +1,5 @@
 ---
 title: Listener Name
-keywords: naming, listener, name
 toc: false
 ---
 
