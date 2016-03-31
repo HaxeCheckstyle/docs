@@ -7,17 +7,24 @@ topnav:
 #      external_url: https://github.com/HaxeCheckstyle/haxe-checkstyle
 #      output: web
 
-#Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   subcategories:
-    - title: Useful Resources
+    - title: Useful Links
       output: web
       items:
-        - title: regexr.com
+        - title: Github Repo
+          external_url: https://github.com/HaxeCheckstyle/haxe-checkstyle
+          output: web
+        
+        - title: Code Climate Reference
+          external_url: https://docs.codeclimate.com/v1.0/docs/haxe-checkstyle
+          output: web
+                  
+        - title: RegExr
           external_url: http://regexr.com
           output: web
 
-        - title: regex101.com
+        - title: RegEx101
           external_url: https://regex101.com
           output: web
