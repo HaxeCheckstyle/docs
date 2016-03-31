@@ -24,7 +24,3 @@ topnav_dropdowns:
         - title: RegExr
           external_url: http://regexr.com
           output: web
-
-        - title: RegEx101
-          external_url: https://regex101.com
-          output: web
