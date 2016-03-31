@@ -1,5 +1,7 @@
 # Haxe Checstyle Documentation
 
-[![Code Climate](https://codeclimate.com/github/HaxeCheckstyle/docs/badges/gpa.svg)](https://codeclimate.com/github/HaxeCheckstyle/docs) [![Issue Count](https://codeclimate.com/github/HaxeCheckstyle/docs/badges/issue_count.svg)](https://codeclimate.com/github/HaxeCheckstyle/docs)
+[![Code Climate](https://codeclimate.com/github/HaxeCheckstyle/haxe-checkstyle/badges/gpa.svg)](https://codeclimate.com/github/HaxeCheckstyle/haxe-checkstyle)
+[![Code Climate Issues](https://img.shields.io/codeclimate/issues/github/HaxeCheckstyle/haxe-checkstyle.svg)](https://codeclimate.com/github/HaxeCheckstyle/haxe-checkstyle/issues)
+[![Gitter chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/HaxeCheckstyle/haxe-checkstyle)
 
 [http://haxecheckstyle.github.io/docs](http://haxecheckstyle.github.io/docs)
