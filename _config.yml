@@ -3,7 +3,6 @@ project: haxe-checkstyle
 output: web
 destination: doc_outputs/haxe-checkstyle
 topnav_title: Haxe Checkstyle Documentation
-homepage_title:
 site_title: Haxe Checkstyle Documentation
 url: /docs/
 project_folder: haxe-checkstyle

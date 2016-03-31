@@ -1,13 +1,8 @@
 ---
 title: About
-tags: [about, checkstyle, static analysis, coding standards]
-audience: all
-type: intro
 toc: false
 homepage: true
 ---
-
-![logo](https://raw.githubusercontent.com/HaxeCheckstyle/haxe-checkstyle/dev/resources/logo.png)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/HaxeCheckstyle/haxe-checkstyle.svg?branch=master)](https://travis-ci.org/HaxeCheckstyle/haxe-checkstyle)
