@@ -3,13 +3,6 @@ title: RegEx Reference
 toc: false
 ---
 
-The following are the recommended links to create and test and regular expressions:
-
-- [regexr.com](http://regexr.com/)
-- [regex101.com](https://regex101.com/)
-
-## Samples
-
 ### `camelCase`
 
 ```
