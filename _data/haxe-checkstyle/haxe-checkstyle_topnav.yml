@@ -21,6 +21,6 @@ topnav_dropdowns:
           external_url: https://docs.codeclimate.com/v1.0/docs/haxe-checkstyle
           output: web
                   
-        - title: RegExr
+        - title: RegExr Online Tool
           external_url: http://regexr.com
           output: web
