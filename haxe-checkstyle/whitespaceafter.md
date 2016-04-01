@@ -30,6 +30,6 @@ var test = [0, 1, 2,
 var test = [0,1,2,3,5,6];test.push(7);
 ```
 
-{{site.data.alerts.error}} Warning No whitespace after , {{site.data.alerts.end}}
+{{site.data.alerts.error}} No whitespace after , {{site.data.alerts.end}}
 
-{{site.data.alerts.error}} Warning No whitespace after ; {{site.data.alerts.end}}
+{{site.data.alerts.error}} No whitespace after ; {{site.data.alerts.end}}
