@@ -31,4 +31,4 @@ class Test {
 }
 ```
 
-{{site.data.alerts.warning}} Invalid local var signature: "Count" (name should be "~/$^[a-z][a-zA-Z0-9]*$/") {{site.data.alerts.end}}
+{{site.data.alerts.error}} Invalid local var signature: "Count" (name should be "~/$^[a-z][a-zA-Z0-9]*$/") {{site.data.alerts.end}}
