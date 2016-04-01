@@ -25,9 +25,9 @@ The above regex allows `camelCase` names.
 
 ```java
 class Test {
-	public function test() {
-		var Count:Int = 1;
-	}
+    public function test() {
+        var Count:Int = 1;
+    }
 }
 ```
 
