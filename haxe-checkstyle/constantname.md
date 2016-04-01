@@ -24,8 +24,8 @@ The default reg-ex as specified in the configuration below allows all upper case
 
 ### Available Tokens
 
-- INLINE
-- NOTINLINE
+- `INLINE`
+- `NOTINLINE`
 
 ### Valid
 
