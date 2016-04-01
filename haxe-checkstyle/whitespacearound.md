@@ -27,10 +27,7 @@ test2 = 1 + 2;
 ### Invalid
 
 ```java
-var test =[];
 test2 = 1+ 2;
 ```
-
-{{site.data.alerts.error}} No whitespace around = {site.data.alerts.end}}
 
 {{site.data.alerts.error}} No whitespace around + {{site.data.alerts.end}}
