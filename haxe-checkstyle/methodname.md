@@ -15,11 +15,7 @@ Checks that method names conform to a format specified by the `format` property.
         "format": "^[a-z][a-zA-Z0-9]*$",
         "tokens": [
         "PUBLIC",
-        "PRIVATE",
-        "STATIC",
-        "NOTSTATIC",
-        "INLINE",
-        "NOTINLINE"
+        "PRIVATE"
         ]
     }
 }
@@ -28,3 +24,12 @@ Checks that method names conform to a format specified by the `format` property.
 You can define different rules for different type of methods using the `tokens` property.
 
 The above regex allows `camelCase` names.
+
+### Available Tokens
+
+- `PUBLIC`
+- `PRIVATE`
+- `STATIC`
+- `NOTSTATIC`
+- `INLINE`
+- `NOTINLINE`
