@@ -16,12 +16,16 @@ The default reg-ex as specified in the configuration below allows all upper case
         "severity": "ERROR",
         "format": "^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$",
         "tokens": [
-            "INLINE",
-            "NOTINLINE"
+            "INLINE"
         ]
     }
 }
 ```
+
+### Available Tokens
+
+- INLINE
+- NOTINLINE
 
 ### Valid
 
