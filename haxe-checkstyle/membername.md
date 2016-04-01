@@ -24,9 +24,9 @@ Checks that instance variable names conform to a format specified by the `format
 
 ### Available Tokens
 
-- PUBLIC
-- PRIVATE
-- ENUM
-- CLASS
-- ABSTRACT
-- TYPEDEF
+- `PUBLIC`
+- `PRIVATE`
+- `ENUM`
+- `CLASS`
+- `ABSTRACT`
+- `TYPEDEF`
