@@ -20,7 +20,7 @@ Warns if Void is used for return or if return type is not specified when returni
 
 ### Options
 
-- `allowEmptyReturn` - Allows empty return which are mostly used to exit functions.
+**`allowEmptyReturn`** - Allows empty return which are mostly used to exit functions.
 
 ```java
 function test(val:Int) {
@@ -28,7 +28,7 @@ function test(val:Int) {
 }
 ```
 
-- `enforceReturnType` - Makes sure every function has a return type specification.
+**`enforceReturnType`** - Makes sure every function has a return type specification.
 
 ```java
 function test(val:Int):Void {
