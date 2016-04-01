@@ -31,3 +31,13 @@ Checks that type names conform to a format specified by the `format` property.
     }
 }
 ```
+
+The above configuration allows `PascalCase/UpperCamelCase` for `classes`, `enums`, `typedefs` and `PascalCase/UpperCamelCase` starting with `I` for `interfaces`.
+
+### Available Tokens
+
+- `CLASS`
+- `INTERFACE`
+- `ENUM`
+- `ABSTRACT`
+- `TYPEDEF`
