@@ -20,3 +20,15 @@ Checks that the local variable names conform to a format specified by the `forma
 ```
 
 The above regex allows `camelCase` names.
+
+### Invalid
+
+```java
+class Test {
+	public function test() {
+		var Count:Int = 1;
+	}
+}
+```
+
+{{site.data.alerts.warning}} Invalid local var signature: "Count" (name should be "~/$^[a-z][a-zA-Z0-9]*$/") {{site.data.alerts.end}}
