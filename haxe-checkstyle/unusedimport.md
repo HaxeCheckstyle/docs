@@ -27,7 +27,7 @@ Checks for unused or duplicate imports.
 
 **Limitation:** Unused import check has no information about imported modules and the types contained within, other than the name used in import specification.
 
-{{site.data.alerts.note}} UnusedImport skips all files named `import.hx`. {{site.data.alerts.end}}
+{{site.data.alerts.note}} UnusedImport skips all files named "import.hx". {{site.data.alerts.end}}
 
 ### Valid
 
