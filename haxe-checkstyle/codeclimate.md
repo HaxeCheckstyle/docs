@@ -3,7 +3,7 @@ title: Code Climate
 toc: false
 ---
 
-Haxe Checkstyle is available on the Code Climate platform (free for open source projects).
+Haxe Checkstyle is available on the [Code Climate platform](https://docs.codeclimate.com/docs/haxe-checkstyle) (free for open source projects).
 
 It requires a `.codeclimate.yml` file and an optional but recommended `checkstyle.json` file to be added to the root of your repository.
 
@@ -29,7 +29,7 @@ ratings:
 
 ```
 
-You can add multiple engines in `.codeclimate.yml`. [Click here](https://docs.codeclimate.com/docs/list-of-engines) to see all available engines in Code Climate.
+You can add multiple [engines](https://docs.codeclimate.com/docs/list-of-engines) in `.codeclimate.yml`.
 
 [Click here](https://docs.codeclimate.com/docs/excluding-files-and-folders) for more information on excluding files and folders.
 
