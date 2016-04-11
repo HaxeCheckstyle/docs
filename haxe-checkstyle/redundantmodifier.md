@@ -5,7 +5,7 @@ toc: false
 
 Checks for redundant modifiers.
 
-Omitting the visibility modifier usually defaults the visibility to `private` in normal classes and `pulbic` in interfaces and externs.
+Omitting the visibility modifier usually defaults the visibility to `private` in normal classes and `public` in interfaces and externs.
 
 ### Configuration
 
