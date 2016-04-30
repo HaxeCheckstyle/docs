@@ -11,9 +11,16 @@ Checks for assignments in subexpressions, such as in `if ((a=b) > 0) return;`.
 {
     "type": "InnerAssignment",
     "props": {
-        "severity": "WARNING"
+        "severity": "WARNING",
+        "ignoreReturnAssignments": true
     }
 }
+```
+
+Has an option to ignore return assignment statements as shown below:
+
+```java
+function set_value(value : String) : String { return this.value = value; }
 ```
 
 ### Valid
