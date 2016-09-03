@@ -3,7 +3,7 @@ title: Spacing
 toc: false
 ---
 
-Spacing check on if statement and around operators.
+Spacing check on if, for, while, switch, try statements and around operators.
 
 ### Configuration
 
