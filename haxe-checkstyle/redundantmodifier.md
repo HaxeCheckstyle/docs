@@ -14,6 +14,8 @@ Omitting the visibility modifier usually defaults the visibility to `private` in
     "type": "RedundantModifier",
     "props": {
         "enforcePublicPrivate": false,
+        "enforcePublic": false,
+        "enforcePrivate": false,
         "severity": "INFO"
     }
 }
