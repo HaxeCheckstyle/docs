@@ -1,4 +1,4 @@
-# Haxe Checstyle Documentation
+# Haxe Checkstyle Documentation
 
 [![Release](https://img.shields.io/github/release/HaxeCheckstyle/haxe-checkstyle.svg)](http://lib.haxe.org/p/checkstyle/)
 [![Code Climate](https://codeclimate.com/github/HaxeCheckstyle/haxe-checkstyle/badges/gpa.svg)](https://codeclimate.com/github/HaxeCheckstyle/haxe-checkstyle)
