@@ -29,6 +29,10 @@ entries:
   - title: Block
     output: web
     items:
+    - title: Conditional Compilation
+      url: /haxe-checkstyle/conditionalcompilation.html
+      output: web
+
     - title: Empty Block
       url: /haxe-checkstyle/emptyblock.html
       output: web
