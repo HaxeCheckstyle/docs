@@ -108,6 +108,10 @@ entries:
       url: /haxe-checkstyle/trace.html
       output: web
 
+    - title: Unused Local Var
+      url: /haxe-checkstyle/unusedlocalvar.html
+      output: web
+
     - title: Variable Initialisation
       url: /haxe-checkstyle/variableinitialisation.html
       output: web
