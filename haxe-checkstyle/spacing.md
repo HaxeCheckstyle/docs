@@ -12,10 +12,20 @@ Spacing check on if, for, while, switch, try statements and around operators.
     "type": "Spacing",
     "props": {
         "severity": "INFO",
-        "spaceIfCondition": true,
+        "spaceIfCondition": "should",
+        "spaceForLoop": "should",
+        "spaceWhileLoop": "should",
+        "spaceSwitchCase": "should",
+        "spaceCatch": "should",
         "spaceAroundBinop": true,
         "noSpaceAroundUnop": true,
         "ignoreRangeOperator": true
     }
 }
 ```
+
+Valid values for `spaceIfCondition`, `spaceForLoop`, `spaceWhileLoop`, `spaceSwitchCase` and `spaceCatch` are:
+
+- shoul`d - space should be there between statement and condition
+- shouldNot - space should not be there between statement and condition
+- any - ignores the space check
