@@ -48,3 +48,11 @@ var a = a ++;
 ```
 
 {{site.data.alerts.error}} Space around "++" {{site.data.alerts.end}}
+
+`ignoreRangeOperator` set to `false`
+
+```java
+for (i in 0...10) {}
+```
+
+{{site.data.alerts.error}} No space around "..." {{site.data.alerts.end}}
