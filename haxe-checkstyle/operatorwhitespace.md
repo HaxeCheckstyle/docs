@@ -29,11 +29,11 @@ Checks that whitespace is present or absent around a operators.
 | Policy                 | Operators
 | ---------------------- | ------------------------------------------------------------------- |
 | `assignOpPolicy`       | `=`, `+=`, `-=`, `*=`, `/=`, `<<=`, `>>=`, `>>>=`, `&=`, `|=`, `^=` |
-| `unaryOpPolicy`        | `++`, `--`, `!`                                                     |
+| `unaryOpPolicy`        | `++`, `--`, `!`, `~`                                                |
 | `ternaryOpPolicy`      | `?:`                                                                |
 | `arithmeticOpPolicy`   | `+`, `-`, `*`, `/`, `%`                                             |
 | `compareOpPolicy`      | `==`, `!=`, `<`, `<=`, `>`, `>=`                                    |
-| `bitwiseOpPolicy`      | `~`, `&`, `|`, `^`, `<<`, `>>`, `>>>`                               |
+| `bitwiseOpPolicy`      | `&`, `|`, `^`, `<<`, `>>`, `>>>`                                    |
 | `boolOpPolicy`         | `&&`, `||`                                                          |
 | `intervalOpPolicy`     | `...`                                                               |
 | `arrowPolicy`          | `=>`                                                                |
