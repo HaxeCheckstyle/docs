@@ -3,7 +3,7 @@ title: Interface
 toc: false
 ---
 
-Checks for unnecessary constructor in classes that contain only static methods or fields.
+Checks and enforces interface style. Either to allow properties and methods or just methods. Has an option to `allowMarkerInterfaces`.
 
 ### Configuration
 
