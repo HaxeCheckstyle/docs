@@ -87,8 +87,8 @@ Classes/Packages can be excluded as shown below for each check:
 "exclude": {
     "all": [],
      "Dynamic": [
-         "checkstyle.Main",
-         "checkstyle.Checker"
+         "checkstyle/Main",
+         "checkstyle/Checker"
      ],
      "MultipleStringLiterals": [
          "checks",
@@ -98,7 +98,7 @@ Classes/Packages can be excluded as shown below for each check:
          "TestMain"
      ],
      "MemberName": [
-         "checkstyle.Main"
+         "checkstyle/Main"
      ]
  }
 ```
