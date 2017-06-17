@@ -31,4 +31,8 @@ Checks that instance variable names conform to a format specified by the `format
 - `PUBLIC`
 - `PRIVATE`
 
-Note: `PUBLIC` or `PRIVATE` tokens only work in combination with `CLASS` or `ABSTRACT` and vice versa. You have to specify a `CLASS` or `ABSTRACT` and at least one access modifier to activate a naming check on these types. `ENUM` and `TYPEDEF` don't have that requirement.
+Note: 
+- `PUBLIC` or `PRIVATE` only work on class and abstract types.
+- If `tokens` contains neither `CLASS` nor `ABSTRACT`, `PUBLIC` and `PRIVATE` match both types.
+- If `tokens` contains either `CLASS` or `ABSTRACT`, `PUBLIC` and `PRIVATE` match only members of that type.
+- If `tokens` contains both `CLASS` and `ABSTRACT`, `PUBLIC` and `PRIVATE` match both types.
