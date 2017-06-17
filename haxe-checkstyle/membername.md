@@ -36,4 +36,4 @@ Note:
 - If `tokens` contains neither `CLASS` nor `ABSTRACT`, `PUBLIC` and `PRIVATE` match both types.
 - If `tokens` contains either `CLASS` or `ABSTRACT`, `PUBLIC` and `PRIVATE` match only members of that type.
 - If `tokens` contains both `CLASS` and `ABSTRACT`, `PUBLIC` and `PRIVATE` match both types.
-- If `tokens` contains neither `PUBLIC` nor `PRIVATE`, class and abstract types are ignored.
+- If `tokens` contains neither `PUBLIC` nor `PRIVATE`, `CLASS` and `ABSTRACT` match public and private members.
