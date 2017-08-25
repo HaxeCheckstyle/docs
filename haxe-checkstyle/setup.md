@@ -85,6 +85,7 @@ Classes/Packages can be excluded as shown below for each check:
 
 ```json
 "exclude": {
+    "path": "RELATIVE_TO_SOURCE",
     "all": [],
      "Dynamic": [
          "checkstyle/Main",
@@ -103,7 +104,7 @@ Classes/Packages can be excluded as shown below for each check:
  }
 ```
 
-{{site.data.alerts.note}} Exclude paths should be relative to the source paths specified. {{site.data.alerts.end}}
+The path option needs to be specified in order to use file paths. Exclude paths may be relative to the source (RELATIVE_TO_SOURCE) or project path (RELATIVE_TO_PROJECT). If no path option is given, the default is to see the excludes as regular expressions e.g. Test$ will match anything ending in Test.  
 
 {{site.data.alerts.tip}} Exclude can either reside in rules JSON file or in a separate JSON file. If separate JSON file is used, it has to be passed using -e option.{{site.data.alerts.end}}
 
