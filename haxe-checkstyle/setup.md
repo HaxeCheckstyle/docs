@@ -31,6 +31,8 @@ haxelib run checkstyle
 [--default-config] <path> : Generate a default config and exit
 [-nostyle]                : To omit styling in output summary
 [-show-missing-checks]    : Show checks missing from active config
+[-checkerthreads] <num>   : Sets the number of checker threads
+[-nothreads]              : Do not use checker threads
 [-report]                 : Show report [DEPRECATED]
 ```
 
