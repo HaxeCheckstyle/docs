@@ -85,6 +85,7 @@ Classes/Packages can be excluded as shown below for each check:
 
 ```json
 "exclude": {
+    "path": "RELATIVE_TO_SOURCE",
     "all": [],
      "Dynamic": [
          "checkstyle/Main",
