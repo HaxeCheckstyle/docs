@@ -279,6 +279,10 @@ entries:
       url: /haxe-checkstyle/emptylines.html
       output: web
 
+    - title: Indentation
+      url: /haxe-checkstyle/indentation.html
+      output: web
+
     - title: Indentation Character
       url: /haxe-checkstyle/indentationcharacter.html
       output: web
