@@ -33,7 +33,7 @@ Setting `ignoreComments` to `true` ignores lines starting with a comment, if you
 
 | `wrapPolicy` |                                                                               |
 | ------------ | ----------------------------------------------------------------------------- |
-| `no`         | wrapped statements must have the same indentation as parent                   |
+| `none`       | wrapped statements must have the same indentation as parent                   |
 | `exact`      | wrapped statemenmts must have a +1 indentation in relation to parent          |
 | `larger`     | wrapped statements must have a +1 or larger indentation in relation to parent |
 
