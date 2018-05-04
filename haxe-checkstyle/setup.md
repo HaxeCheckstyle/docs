@@ -46,7 +46,7 @@ The library will automatically look for `checkstyle.json` at root level where al
 
 The default severity for all checks can be defined using `defaultSeverity` property and can be overridden for each check as shown below.
 
-You can inherit a checkstyle configuration by using `extendsConfigPath` to point to a parent checkstyle json file. Currently checkstyle only supports one level of inheritance. (available since 2.2.3)
+You can inherit a checkstyle configuration by using `extendsConfigPath` to point to a parent checkstyle json file. (available since 2.2.3)
 
 The following is a sample `checkstyle.json` with 2 rules.
 
