@@ -81,7 +81,7 @@ e.g.:
 haxelib run checkstyle -s src -detect myCheckstyle.json
 ```
 
-Currently autodetection supports only a few checks ([AvoidStarImport](avoidstarimport.html), [ConditionalCompilation](conditionalcompilation.html), [ConstantName](constantname.html), [Indentation](indentation.html), [IndentationCharacter](indentationcharacter.html), [LeftCurly](leftcurly.html), [RedundantModifier](redundatmodifier.html), [RightCurly](rightcurly), [SeparatorWrap](separatorwrap.html), [TODOComment](todocomment.html), [Trace](trace.html), [TrailingWhitespace](trailingwhitespace.html) and [Type](type.html)).
+Currently autodetection supports only a few checks ([AvoidStarImport](avoidstarimport.html), [ConditionalCompilation](conditionalcompilation.html), [ConstantName](constantname.html), [Indentation](indentation.html), [IndentationCharacter](indentationcharacter.html), [LeftCurly](leftcurly.html), [RedundantModifier](redundantmodifier.html), [RightCurly](rightcurly), [SeparatorWrap](separatorwrap.html), [TODOComment](todocomment.html), [Trace](trace.html), [TrailingWhitespace](trailingwhitespace.html) and [Type](type.html)).
 
 It works by running these checks with different configuration options on your source folder and selecting options with the least amount of checkstyle violations.
 For each check and each single property value detection will stop goin through your files as soon as it finds a difference in checkstyle violations. Which might lead to less perfect settings.
