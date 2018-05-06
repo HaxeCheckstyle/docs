@@ -33,6 +33,7 @@ haxelib run checkstyle
 [-show-missing-checks]    : Show checks missing from active config
 [-checkerthreads] <num>   : Sets the number of checker threads
 [-nothreads]              : Do not use checker threads
+[-detect] <path>          : Try to detect your coding style (experimental)
 [-report]                 : Show report [DEPRECATED]
 ```
 
@@ -72,6 +73,18 @@ The following is a sample `checkstyle.json` with 2 rules.
 }
 ```
 
+### Automatically detect your coding style (available since 2.2.3)
+
+Checkstyle can try to detect your coding style if you run it with `-detect <path>` (Warning: will overwrite `<path>`).
+e.g.:
+```
+haxelib run checkstyle -s src -detect myCheckstyle.json
+```
+
+Currently autodetection supports only a few checks (ConditionalCompilation, ConstantName, Indentation, IndentationCharacter, LeftCurly, RedundantModifier, RightCurly and SeparatorWrap).
+It works by running these checks with different configuration options on your source folder and selecting options with the least amount of checkstyle violations.
+For each check and each single property value detection will stop goin through your files as soon as it finds a difference in checkstyle violations. Which might lead to less perfect settings.
+
 ### Running Checkstyle
 
 ```
@@ -92,21 +105,21 @@ Classes/Packages can be excluded as shown below for each check:
 "exclude": {
     "path": "RELATIVE_TO_SOURCE",
     "all": [],
-     "Dynamic": [
-         "checkstyle/Main",
-         "checkstyle/Checker"
-     ],
-     "MultipleStringLiterals": [
-         "checks",
-         "token"
-     ],
-     "NestedForDepth": [
-         "TestMain"
-     ],
-     "MemberName": [
-         "checkstyle/Main"
-     ]
- }
+    "Dynamic": [
+        "checkstyle/Main",
+        "checkstyle/Checker"
+    ],
+    "MultipleStringLiterals": [
+        "checks",
+        "token"
+    ],
+    "NestedForDepth": [
+        "TestMain"
+    ],
+    "MemberName": [
+        "checkstyle/Main"
+    ]
+}
 ```
 
 The path option needs to be specified in order to use file paths. Exclude paths may be relative to the source (RELATIVE_TO_SOURCE) or project path (RELATIVE_TO_PROJECT). If no path option is given, the default is to see the excludes as regular expressions e.g. Test$ will match anything ending in Test.  

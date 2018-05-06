@@ -37,5 +37,5 @@ Setting `ignoreComments` to `true` ignores lines starting with a comment, if you
 | `exact`      | wrapped statemenmts must have a +1 indentation in relation to parent          |
 | `larger`     | wrapped statements must have a +1 or larger indentation in relation to parent |
 
-{{site.data.alerts.error}} Indentation mismatch: expected: 2, actual: 3 {{site.data.alerts.end}}
+{{site.data.alerts.error}} Indentation mismatch: expected: "\t"[1], actual: no indentation {{site.data.alerts.end}}
 
