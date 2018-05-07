@@ -27,7 +27,7 @@ Multiline strings may break indentation and there is handling for line-wrapped i
 }
 ```
 
-`character` can either be `tab` or a number of spaces e.g. `  ` or `    `, etc.
+`character` can either be `tab` or a number of spaces e.g. "  " or "    ", etc.
 Setting `ignoreConditionals` to `true` allows lines starting with `#if/#else/#elseif/#end/#error` to break indentation. Setting it to `false` means conditionals must have correct indentation.
 Setting `ignoreComments` to `true` ignores lines starting with a comment, if you want your comments to use correct indentation then set `ignoreComments` to `false`.
 
