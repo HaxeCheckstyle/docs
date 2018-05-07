@@ -47,7 +47,7 @@ The library will automatically look for `checkstyle.json` at root level where al
 
 The default severity for all checks can be defined using `defaultSeverity` property and can be overridden for each check as shown below.
 
-You can inherit a checkstyle configuration by using `extendsConfigPath` to point to a parent checkstyle json file. (available since 2.2.3)
+You can inherit a checkstyle configuration by using `extendsConfigPath` to point to a parent checkstyle json file. (available since 2.3.0)
 
 The following is a sample `checkstyle.json` with 2 rules.
 
@@ -73,7 +73,7 @@ The following is a sample `checkstyle.json` with 2 rules.
 }
 ```
 
-### Automatically detect your coding style (available since 2.2.3)
+### Automatically detect your coding style (available since 2.3.0)
 
 Checkstyle can try to detect your coding style if you run it with `-detect <path>` (Warning: will overwrite `<path>`).
 e.g.:
