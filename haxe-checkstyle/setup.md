@@ -24,17 +24,17 @@ haxelib run checkstyle
 [-r | --reporter] <name>  : Set reporter (xml, json or text, default: text)
 [-p | --path] <path>      : Set reporter output path
 [-x | --xslt] <style>     : Set reporter style (XSLT)
-[-progress]               : Show percentage progress
-[-exitcode]               : Return number of failed checks in exitcode
-[--list-checks]           : List all available checks and exit
-[--list-reporters]        : List all available reporters and exit
-[--default-config] <path> : Generate a default config and exit
-[-nostyle]                : To omit styling in output summary
-[-show-missing-checks]    : Show checks missing from active config
 [-checkerthreads] <num>   : Sets the number of checker threads
-[-nothreads]              : Do not use checker threads
+[-default-config] <path> : Generate a default config and exit
 [-detect] <path>          : Try to detect your coding style (experimental)
-[-report]                 : Show report [DEPRECATED]
+[-exitcode]               : Return number of failed checks in exitcode
+[-list-checks]           : List all available checks and exit
+[-list-reporters]        : List all available reporters and exit
+[-nostyle]                : To omit styling in output summary
+[-nothreads]              : Do not use checker threads
+[-progress]               : Show percentage progress
+[-show-missing-checks]    : Show checks missing from active config
+[-show-parser-errors]     : Adds error messages for files that checkstyle fails to parse
 ```
 
 ### Rules
@@ -81,10 +81,7 @@ e.g.:
 haxelib run checkstyle -s src -detect myCheckstyle.json
 ```
 
-Currently autodetection supports only a few checks ([AvoidStarImport](avoidstarimport.html), [ConditionalCompilation](conditionalcompilation.html), [ConstantName](constantname.html), [Indentation](indentation.html), [IndentationCharacter](indentationcharacter.html), [LeftCurly](leftcurly.html), [RedundantModifier](redundantmodifier.html), [RightCurly](rightcurly), [SeparatorWrap](separatorwrap.html), [TODOComment](todocomment.html), [Trace](trace.html), [TrailingWhitespace](trailingwhitespace.html) and [Type](type.html)).
-
-It works by running these checks with different configuration options on your source folder and selecting options with the least amount of checkstyle violations.
-For each check and each single property value detection will stop goin through your files as soon as it finds a difference in checkstyle violations. Which might lead to less perfect settings.
+see [Automatic detection of coding style](autodetect.html)
 
 ### Running Checkstyle
 
