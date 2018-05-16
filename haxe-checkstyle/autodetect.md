@@ -11,8 +11,14 @@ e.g.:
 haxelib run checkstyle -s src -detect myCheckstyle.json
 ```
 
+Auto detection is meant as a starting point, helping you to set up a basic configuration, that you can then modify to make it work with your coding style.
+
 It works by running these checks with different configuration options on your source folder and selecting options with the least amount of checkstyle violations.
-For each check and each single property value detection will stop going through your files as soon as it finds a difference in checkstyle violations. Which might lead to less perfect settings.
+For each check and each single property value detection will stop going through your files as soon as it finds a difference in checkstyle violations. 
+
+Since each check runs multiple times and many checks need to look at more than one file, it may take some time to complete a detection run (especially when running though neko). So using a small set of source files produces quicker results, but they might not contain all relevant cases, so you can end up with a less perfect configuration. Though, using your full source code is not a real guarantee for a flawless detection. 
+Most likely you will have to adjust configuration settings and you might need to disable checks that don't apply to you. Some checks like e.g. TODOComment, Dyanmic, TrailingWhitespace or Trace have no real options, so checkstyle's auto detection includes them regardless of whether they apply to you or nor (because the only real option is to not use them).
+
 
 | Checks supported by automatic detection:               |
 | ------------------------------------------------------ |
