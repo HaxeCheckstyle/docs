@@ -6,11 +6,13 @@ toc: false
 ### Suppressing and excluding files and parts of file
 
 Sometimes checkstyle complains about things, that you can't or won't fix. With excludes and suppression you can then tell checkstyle to ignore those parts of your code.
+
 Checkstyle supports inline suppresstion through a `@SuppressWarnings` meta annotation above the offending part. It also supports exclusions though your checkstyle configuration file or a dedicated checkstyle exclude file. 
 
 #### Exclude packages/classes with a configuration file
 
 You can define excludes either inside your `checkstyle.json` configuration file, or you can put them into a separate `checkstyle-exclude.json` file (use `-c`and `-e` command line options to change default filenames). 
+
 Checkstyle will skip files that match an entry under the `"all"` key. The Dynamic check will not run on any file matching an entry in the `"Dynamic"` section.
 
 New since checkstyle 2.4.0: each entry can have an additional range specification. 
