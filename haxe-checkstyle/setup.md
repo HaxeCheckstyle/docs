@@ -95,51 +95,6 @@ Multiple source folders can be defined as shown below:
 haxelib run checkstyle -s src -s samples
 ```
 
-### Exclude Packages/Classes
+### Exclude Packages/Classes/Code fragments
 
-Classes/Packages can be excluded as shown below for each check:
-
-```json
-"exclude": {
-    "path": "RELATIVE_TO_SOURCE",
-    "all": [],
-    "Dynamic": [
-        "checkstyle/Main",
-        "checkstyle/Checker"
-    ],
-    "MultipleStringLiterals": [
-        "checks",
-        "token"
-    ],
-    "NestedForDepth": [
-        "TestMain"
-    ],
-    "MemberName": [
-        "checkstyle/Main"
-    ]
-}
-```
-
-The path option needs to be specified in order to use file paths. Exclude paths may be relative to the source (RELATIVE_TO_SOURCE) or project path (RELATIVE_TO_PROJECT). If no path option is given, the default is to see the excludes as regular expressions e.g. Test$ will match anything ending in Test.  
-
-{{site.data.alerts.tip}} Exclude can either reside in rules JSON file or in a separate JSON file. If separate JSON file is used, it has to be passed using -e option.{{site.data.alerts.end}}
-
-### Suppress Warnings
-
-An alternative way to exclude classes/methods using meta data.
-
-`SuppressWarnings` is an useful feature when you want to omit a class/function/line from a specific check.
-
-For example, if you have a class which has `Dynamic` usage and you want to omit that class from `Dynamic` check you can use `@SuppressWarnings` as show below.
-
-```java
-@SuppressWarnings("checkstyle:Dynamic")
-```
-
-You can also omit multiple checks.
-
-```java
-@SuppressWarnings("checkstyle:Dynamic", "checkstyle:LineLength")
-```
-
-{{site.data.alerts.important}} @SuppressWarnings may not work on all checks. {{site.data.alerts.end}}
+see [Excluding code from checkstyle](excludeconfig.html)

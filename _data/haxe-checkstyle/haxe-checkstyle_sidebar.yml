@@ -12,6 +12,9 @@ entries:
       - title: Setup
         url: /haxe-checkstyle/setup.html
         output: web
+      - title: Excluding code from checkstyle
+        url: /haxe-checkstyle/excludeconfig.html
+        output: web
       - title: Automatic detection of coding style
         url: /haxe-checkstyle/autodetect.html
         output: web
