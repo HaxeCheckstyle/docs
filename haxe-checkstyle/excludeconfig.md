@@ -14,11 +14,13 @@ You can define excludes either inside your `checkstyle.json` configuration file,
 Checkstyle will skip files that match an entry under the `"all"` key. The Dynamic check will not run on any file matching an entry in the `"Dynamic"` section.
 
 New since checkstyle 2.4.0: each entry can have an additional range specification. 
+
 | Valid ranges are:                     |
 | ------------------------------------- |
 | `:<lineNumber>`                       |
 | `:<lineNumberStart>-<lineNumberEnd>`  |
 | `:<identifier>`                       |
+
 Where `lineNumber`, `lineNumberStart` and `lineNumberEnd` must be positive integers, should specify valid line numbers of affected files. Linenumbers start at 1.
 `identifier` can be any identifier name inside your code (excluding Haxe keywords).
 If you use a range specification for an entry under the `"all"` key, then checkstyle processes files matching that entry but the specifiedd range will be excluded from every check (as long as the check supports exclusion/suppression).
