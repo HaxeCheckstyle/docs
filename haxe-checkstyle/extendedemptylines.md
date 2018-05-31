@@ -46,38 +46,38 @@ To ignore single line typ definitions set `skipSingleLineTypes` to `true`.
 
 | places                       |                                                            |
 | ---------------------------- | ---------------------------------------------------------- |
-| `beforePackage`              | before package                                             |
-| `afterPackage`               | after package                                              |
-| `betweenImports`             | between imports/usings                                     |
-| `beforeUsing`                | before using block                                         |
-| `afterImports`               | after all imports/usings                                   |
-| `anywhereInFile`             | anywhere in file                                           |
-| `betweenTypes`               | betgween two types                                         |
-| `beforeFileEnd`              | before EOF                                                 |
-| `inFunction`                 | anywhere inside function body                              |
-| `afterLeftCurly`             | after left curly                                           |
-| `beforeRightCurly`           | before right curly                                         |
-| `typeDefinition`             | between type and left curly                                |
-| `beginClass`                 | after class left curly                                     |
-| `endClass`                   | before class right curly                                   |
+| `afterAbstractVars`          | after abstract var block                                   |
 | `afterClassStaticVars`       | after static class var block                               |
 | `afterClassVars`             | after class var block                                      |
+| `afterImports`               | after all imports/usings                                   |
+| `afterLeftCurly`             | after left curly                                           |
+| `afterMultiLineComment`      | after multi line comment                                   |
+| `afterPackage`               | after package                                              |
+| `afterSingleLineComment`     | after single line comment                                  |
+| `anywhereInFile`             | anywhere in file                                           |
+| `beforePackage`              | before package                                             |
+| `beforeRightCurly`           | before right curly                                         |
+| `beforeUsing`                | before using block                                         |
+| `beginAbstract`              | after abstract left curly                                  |
+| `beginClass`                 | after class left curly                                     |
+| `beginEnum`                  | after enum left curly                                      |
+| `beforeFileEnd`              | before EOF                                                 |
+| `beginInterface`             | after interface left curly                                 |
+| `beginTypedef`               | after typedef left curly                                   |
+| `betweenAbstractMethods`     | between abstract methods                                   |
+| `betweenAbstractVars`        | between abstract vars                                      |
+| `betweenClassMethods`        | between class methods                                      |
 | `betweenClassStaticVars`     | between static class vars                                  |
 | `betweenClassVars`           | between class vars                                         |
-| `betweenClassMethods`        | between class methods                                      |
-| `beginAbstract`              | after abstract left curly                                  |
-| `endAbstract`                | before abstract right curly                                |
-| `afterAbstractVars`          | after abstract var block                                   |
-| `betweenAbstractVars`        | between abstract vars                                      |
-| `betweenAbstractMethods`     | between abstract methods                                   |
-| `beginInterface`             | after interface left curly                                 |
-| `endInterface`               | before interface right curly                               |
-| `betweenInterfaceFields`     | between interface fields                                   |
-| `beginEnum`                  | after enum left curly                                      |
-| `endEnum`                    | before enum right curly                                    |
 | `betweenEnumFields`          | between enum fields                                        |
-| `beginTypedef`               | after typedef left curly                                   |
-| `endTypedef`                 | before typedef right curly                                 |
+| `betweenImports`             | between imports/usings                                     |
+| `betweenInterfaceFields`     | between interface fields                                   |
 | `betweenTypedefFields`       | between typedef fields                                     |
-| `afterSingleLineComment`     | after single line comment                                  |
-| `afterMultiLineComment`      | after multi line comment                                   |
+| `betweenTypes`               | betgween two types                                         |
+| `endClass`                   | before class right curly                                   |
+| `endAbstract`                | before abstract right curly                                |
+| `endInterface`               | before interface right curly                               |
+| `endEnum`                    | before enum right curly                                    |
+| `endTypedef`                 | before typedef right curly                                 |
+| `inFunction`                 | anywhere inside function body                              |
+| `typeDefinition`             | between type and left curly                                |

@@ -14,8 +14,6 @@ sidebar_tagline:
 sidebar_version:
 theme_file: theme-orange.css
 
-google_analytics: UA-75768666-1
-
 port: 4009
 
 exclude:
