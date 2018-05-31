@@ -285,6 +285,10 @@ entries:
       url: /haxe-checkstyle/emptylines.html
       output: web
 
+    - title: Extended Empty Lines
+      url: /haxe-checkstyle/extendedemptylines.html
+      output: web
+
     - title: Indentation
       url: /haxe-checkstyle/indentation.html
       output: web
