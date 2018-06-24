@@ -42,6 +42,7 @@ Only checks fields matching types listed in `tokens`:
 | `TYPEDEF_DEF`         | typdef types    |
 
 Limit types of fields to check with `fieldType`:
+
 | fieldType     |                         |
 | --------------| ------------------------|
 | `VARS`        | only var fields         |
@@ -49,6 +50,7 @@ Limit types of fields to check with `fieldType`:
 | `BOTH`        | both vars and functions |
 
 Limit modifiers of fields to check with `modifier`:
+
 | modifier   |                            |
 | -----------| ---------------------------|
 | `PUBLIC`   | only public fields         |
