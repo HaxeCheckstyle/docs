@@ -125,10 +125,21 @@ entries:
   - title: Comments
     output: web
     items:
+    - title: Doc Comment Style
+      url: /haxe-checkstyle/doccommentstyle.html
+      output: web
+
+    - title: Field Doc Comment
+      url: /haxe-checkstyle/fielddoccomment.html
+      output: web
+
     - title: TODO Comment
       url: /haxe-checkstyle/todocomment.html
       output: web
 
+    - title: Type Doc Comment
+      url: /haxe-checkstyle/typedoccomment.html
+      output: web
 
   - title: Design
     output: web
