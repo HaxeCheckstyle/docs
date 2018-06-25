@@ -28,9 +28,11 @@ Most likely you will have to adjust configuration settings and you might need to
 | [ConditionalCompilation](conditionalcompilation.html)  |
 | [ConstantName](constantname.html)                      |
 | [CyclomaticComplexity](cyclomaticcomplexity.html)      |
+| [DocCommentStyle](doccommentstyle.html)                |
 | [Dynamic](dynamic.html)                                |
 | [EmptyLines](emptylines.html)                          |
 | [EmptyPackage](emptypackage.html)                      |
+| [FieldDocComment](fielddoccomment.html)                |
 | [FileLength](filelength.html)                          |
 | [HiddenField](hiddenfield.html)                        |
 | [Indentation](indentation.html)                        |
@@ -60,6 +62,7 @@ Most likely you will have to adjust configuration settings and you might need to
 | [Trace](trace.html)                                    |
 | [TrailingWhitespace](trailingwhitespace.html)          |
 | [Type](type.html)                                      |
+| [TypeDocComment](typedoccomment.html)                  |
 | [UnnecessaryConstructor](unnecessaryconstructor.html)  |
 | [UnusedImport](unusedimport.html)                      |
 | [UnusedLocalVar](unusedlocalvar.html)                  |
