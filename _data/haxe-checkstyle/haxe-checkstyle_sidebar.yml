@@ -190,6 +190,17 @@ entries:
       url: /haxe-checkstyle/stringliteral.html
       output: web
 
+  - title: Meta
+    output: web
+    items:
+    - title: Redundant Access Meta
+      url: /haxe-checkstyle/redundantaccessmeta.html
+      output: web
+
+    - title: Redundant Allow Meta
+      url: /haxe-checkstyle/redundantallowmeta.html
+      output: web
+
   - title: Metrics
     output: web
     items:

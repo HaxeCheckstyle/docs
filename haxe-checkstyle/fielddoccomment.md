@@ -3,7 +3,7 @@ title: Field Doc Comment
 toc: false
 ---
 
-Checks code documentation on fields
+Checks code documentation on fields (available since 2.4.2)
 
 ### Configuration
 

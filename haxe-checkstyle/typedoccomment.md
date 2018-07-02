@@ -3,7 +3,7 @@ title: Type Doc Comment
 toc: false
 ---
 
-Checks code documentation on type level
+Checks code documentation on type level (available since 2.4.2)
 
 ### Configuration
 
