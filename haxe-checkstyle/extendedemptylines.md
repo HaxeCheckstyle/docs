@@ -9,7 +9,7 @@ Checks for consecutive empty lines. (available since 2.4.0)
 
 ```json
 {
-    "type": "EmptyLines",
+    "type": "ExtendedEmptyLines",
     "props": {
         "defaultPolicy": "none",
         "ignore": [],
