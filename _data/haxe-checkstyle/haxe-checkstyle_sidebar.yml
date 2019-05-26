@@ -35,6 +35,10 @@ entries:
   - title: Block
     output: web
     items:
+    - title: Block Breaking Conditional
+      url: /haxe-checkstyle/blockbreakingconditional.html
+      output: web
+
     - title: Conditional Compilation
       url: /haxe-checkstyle/conditionalcompilation.html
       output: web
