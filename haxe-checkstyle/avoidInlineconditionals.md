@@ -17,6 +17,7 @@ Detects use of ternary operator. Useful for developers who find ternary operator
 ```
 
 ### Invalid
-```
+
+```java
 var keycode = (event.keyCode != null) ? event.keyCode : event.which;
 ```

@@ -3,7 +3,7 @@ title: Block Breaking Conditional
 toc: false
 ---
 
-Detects block breaking conditionals. Useful for developers who find want to avoid conditionals to cross block boundaries.  (available since 2.5.0)
+Detects block breaking conditionals. Useful for developers who find want to avoid conditionals to cross block boundaries. (available since 2.5.0)
 
 ### Configuration
 
@@ -14,4 +14,16 @@ Detects block breaking conditionals. Useful for developers who find want to avoi
         "severity": "INFO"
     }
 }
+```
+
+### Invalid
+
+```java
+#if js
+    if (true) {
+#end
+        trace(data);
+#if js
+    }
+#end
 ```

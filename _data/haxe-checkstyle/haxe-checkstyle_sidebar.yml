@@ -215,8 +215,16 @@ entries:
   - title: Modifier
     output: web
     items:
+    - title: Inline Final
+      url: /haxe-checkstyle/inlinefinal.html
+      output: web
+
     - title: Modifier Order
       url: /haxe-checkstyle/modifierorder.html
+      output: web
+
+    - title: Public Accessor
+      url: /haxe-checkstyle/publicaccessor.html
       output: web
 
     - title: Redundant Modifier
