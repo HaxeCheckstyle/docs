@@ -5,7 +5,7 @@ toc: false
 
 ### Installation
 
-```
+```bash
 haxelib install checkstyle
 ```
 
@@ -13,28 +13,29 @@ haxelib install checkstyle
 
 To see all the options available run the following command.
 
-```
+```bash
 haxelib run checkstyle
 ```
 
-```
+```bash
+Haxe Checkstyle v2.5.0
 [-s | --source] <path>    : Set source path to process (multiple allowed)
 [-c | --config] <path>    : Set config file (default: checkstyle.json)
 [-e | --exclude] <path>   : Set exclude file (default: checkstyle-exclude.json)
 [-r | --reporter] <name>  : Set reporter (xml, json or text, default: text)
 [-p | --path] <path>      : Set reporter output path
 [-x | --xslt] <style>     : Set reporter style (XSLT)
-[-checkerthreads] <num>   : Sets the number of checker threads
-[-default-config] <path> : Generate a default config and exit
-[-detect] <path>          : Try to detect your coding style (experimental)
-[-exitcode]               : Return number of failed checks in exitcode
-[-list-checks]           : List all available checks and exit
-[-list-reporters]        : List all available reporters and exit
-[-nostyle]                : To omit styling in output summary
-[-nothreads]              : Do not use checker threads
-[-progress]               : Show percentage progress
-[-show-missing-checks]    : Show checks missing from active config
-[-show-parser-errors]     : Adds error messages for files that checkstyle fails to parse
+[--checkerthreads] <num>  : Sets the number of checker threads
+[--default-config] <path> : Generate a default config and exit
+[--detect] <path>         : Try to detect your coding style (experimental)
+[--exitcode]              : Return number of failed checks in exitcode
+[--list-checks]           : List all available checks and exit
+[--list-reporters]        : List all available reporters and exit
+[--nostyle]               : Omit styling in output summary
+[--nothreads]             : Do not use checker threads
+[--progress]              : Show percentage progress
+[--show-missing-checks]   : Show checks missing from active config
+[--show-parser-errors]    : Adds error messages for files that checkstyle fails to parse
 ```
 
 ### Rules
@@ -77,21 +78,22 @@ The following is a sample `checkstyle.json` with 2 rules.
 
 Checkstyle can try to detect your coding style if you run it with `-detect <path>` (Warning: will overwrite `<path>`).
 e.g.:
-```
-haxelib run checkstyle -s src -detect myCheckstyle.json
+
+```bash
+haxelib run checkstyle -s src --detect myCheckstyle.json
 ```
 
 see [Automatic detection of coding style](autodetect.html)
 
 ### Running Checkstyle
 
-```
+```bash
 haxelib run checkstyle -s src
 ```
 
 Multiple source folders can be defined as shown below:
 
-```
+```bash
 haxelib run checkstyle -s src -s samples
 ```
 
