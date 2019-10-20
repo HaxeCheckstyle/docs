@@ -62,8 +62,12 @@ entries:
   - title: Coding
     output: web
     items:
-    - title: Avoid Inline Conditionals
-      url: /haxe-checkstyle/avoidInlineconditionals.html
+    - title: Avoid Ternary Operator
+      url: /haxe-checkstyle/avoidternaryoperator.html
+      output: web
+
+    - title: CodeSimilarity
+      url: /haxe-checkstyle/codesimilarity.html
       output: web
 
     - title: Default Comes Last
@@ -298,6 +302,10 @@ entries:
 
     - title: Dynamic
       url: /haxe-checkstyle/dynamic.html
+      output: web
+
+    - title: EnforceVarTypeHint
+      url: /haxe-checkstyle/enforcevartypehint.html
       output: web
 
     - title: Return
