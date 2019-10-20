@@ -21,7 +21,7 @@ Checks for identical or similar code. Currently looks for similar or identical f
 
 ### Options
 
-**`severityIdentical`** - Severity level for identical code blocks
+**`severityIdentical`** - Severity level for identical code blocks (`severity` is used for reporting similar code blocks)
 
 **`thresholdIdentical`** - number of lines where identical code is tolerated
 
