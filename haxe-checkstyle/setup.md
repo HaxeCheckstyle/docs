@@ -76,7 +76,7 @@ The following is a sample `checkstyle.json` with 2 rules.
 
 ### Automatically detect your coding style (available since 2.3.0)
 
-Checkstyle can try to detect your coding style if you run it with `-detect <path>` (Warning: will overwrite `<path>`).
+Checkstyle can try to detect your coding style if you run it with `--detect <path>` (Warning: will overwrite `<path>`).
 e.g.:
 
 ```bash
