@@ -40,4 +40,5 @@ If e.g. code A has `+` , code B has `-` and code C has `&&` then A and B show up
 Comments and whitespace have no influence to detecting similar or identical code fragments.
 
 `CodeSimilarity` will only look at `function`, `if`, `for`, `switch`, `while`, `do/while`, `try` and `{` as starting points for similar or identical code.
-Current version of check will not look at individiual lines outside or surrounding keywords / tokens of that list. So there might be code fragments that `CodeSimilarity` will not mark as similar or identical, even though they might preceed or follow a section of code that was found to be similar.
+
+Current version of check will not look at individiual lines outside of or surrounding keywords / tokens of that list. So there might be code fragments that `CodeSimilarity` will not mark as similar or identical, even though they might preceed or follow a section of code that was found to be similar.
