@@ -35,7 +35,7 @@ Code is considered identical if names, keywords, operations, values and overall 
 
 Code is considered similar if keywords and overall structure are identical, names and values may vary, and operators need to fall into identical categories. 
 
-If e.g. code A has `+` , code B has `-` and code C has `&&` then A and B show up as similar, C will not. For operator categories see [Haxe manual](https://haxe.org/manual/expression-operators-binops.html).
+If e.g. code A has a `+` in one place, whereas code B has a `-` in the same location and code C uses `&`, but everything else is identical then A and B show up as similar, C will not. For operator categories see [Haxe manual](https://haxe.org/manual/expression-operators-binops.html).
 
 Comments and whitespace have no influence to detecting similar or identical code fragments.
 
