@@ -62,6 +62,10 @@ entries:
   - title: Coding
     output: web
     items:
+    - title: Arrow Function
+      url: /haxe-checkstyle/arrowfunction.html
+      output: web
+
     - title: Avoid Ternary Operator
       url: /haxe-checkstyle/avoidternaryoperator.html
       output: web
