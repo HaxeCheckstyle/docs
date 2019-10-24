@@ -95,6 +95,10 @@ entries:
       output: web
 
     - title: Nested For Depth
+      url: /haxe-checkstyle/nestedcontrolflow.html
+      output: web
+
+    - title: Nested For Depth
       url: /haxe-checkstyle/nestedfordepth.html
       output: web
 

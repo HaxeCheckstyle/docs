@@ -33,7 +33,7 @@ Checks for identical or similar code. Currently looks for similar or identical f
 
 Code is considered identical if names, keywords, operations, values and overall structure are identical in two or more places.
 
-Code is considered similar if keywords and overall structure are identical, names and values may vary, and operators need to fall into identical categories. 
+Code is considered similar if keywords and overall structure are identical, names and values may vary, and operators need to fall into identical categories.
 
 If e.g. code A has a `+` in one place, whereas code B has a `-` in the same location and code C uses `&`, but everything else is identical then A and B show up as similar, C will not. For operator categories see [Haxe manual](https://haxe.org/manual/expression-operators-binops.html).
 
