@@ -94,7 +94,7 @@ entries:
       url: /haxe-checkstyle/multiplevariabledeclarations.html
       output: web
 
-    - title: Nested For Depth
+    - title: Nested Control Flow
       url: /haxe-checkstyle/nestedcontrolflow.html
       output: web
 
