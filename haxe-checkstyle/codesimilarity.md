@@ -23,9 +23,11 @@ Checks for identical or similar code. Currently looks for similar or identical f
 
 **`severityIdentical`** - Severity level for identical code blocks (`severity` is used for reporting similar code blocks)
 
-**`thresholdIdentical`** - number of lines where identical code is tolerated
+**`thresholdIdentical`** - number of tokens up to which where identical code is tolerated
 
-**`thresholdSimilar`** - number of lines where similar code is tolerated
+**`thresholdSimilar`** - number of tokens up to which similar code is tolerated
+
+(tokens are keywords, constants, operators, etc.)
 
 ### Similar and identical code
 

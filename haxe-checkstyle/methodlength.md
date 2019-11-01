@@ -13,7 +13,12 @@ Therefore long methods should usually be refactored into several individual meth
     "type": "MethodLength",
     "props": {
         "severity": "ERROR",
-        "max": 50
+        "max": 50,
+        "ignoreEmptyLines": true
     }
 }
 ```
+
+### Options
+
+**`ignoreEmptyLines`** - ignores or includes empty lines when counting method length (available since 2.6.0)

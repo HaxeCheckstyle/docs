@@ -13,7 +13,12 @@ Therefore long classes should usually be refactored into several individual clas
     "type": "FileLength",
     "props": {
         "severity": "WARNING",
-        "max": 2000
+        "max": 1000,
+        "ignoreEmptyLines": true
     }
 }
 ```
+
+### Options
+
+**`ignoreEmptyLines`** - ignores or includes empty lines when counting total file length (available since 2.6.0)
