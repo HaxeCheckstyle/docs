@@ -227,8 +227,8 @@ entries:
   - title: Modifier
     output: web
     items:
-    - title: Inline Final
-      url: /haxe-checkstyle/inlinefinal.html
+    - title: Final
+      url: /haxe-checkstyle/final.html
       output: web
 
     - title: Modifier Order
