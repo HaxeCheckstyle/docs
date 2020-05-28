@@ -9,7 +9,7 @@ Checks for unused or duplicate imports.
 
 ```json
 {
-    "type": "UnusedImports",
+    "type": "UnusedImport",
     "props": {
         "severity": "WARNING",
         "ignoreModules": [
