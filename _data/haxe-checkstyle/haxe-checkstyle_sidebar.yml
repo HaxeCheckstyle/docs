@@ -316,16 +316,16 @@ entries:
       url: /haxe-checkstyle/dynamic.html
       output: web
 
-    - title: Enforce Var Type Hint
-      url: /haxe-checkstyle/enforcevartypehint.html
-      output: web
-
     - title: Return
       url: /haxe-checkstyle/return.html
       output: web
 
     - title: Type
       url: /haxe-checkstyle/type.html
+      output: web
+
+    - title: Var Type Hint
+      url: /haxe-checkstyle/vartypehint.html
       output: web
 
   - title: Whitespace
