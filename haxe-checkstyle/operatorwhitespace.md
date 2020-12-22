@@ -14,30 +14,34 @@ Checks that whitespace is present or absent around a operators.
         "severity": "WARNING",
         "assignOpPolicy": "around",
         "unaryOpPolicy": "none",
-        "ternaryOpPolicy": "none",
+        "ternaryOpPolicy": "around",
         "arithmeticOpPolicy": "around",
         "compareOpPolicy": "around",
         "bitwiseOpPolicy": "around",
         "boolOpPolicy": "around",
         "intervalOpPolicy": "none",
-        "arrowPolicy": "none",
-        "functionArgPolicy": "none"
+        "arrowPolicy": "around",
+        "arrowFunctionPolicy": "around",
+        "oldFunctionTypePolicy": "around",
+        "newFunctionTypePolicy": "around",
     }
 }
 ```
 
-| Policy                 | Operators
-| ---------------------- | ------------------------------------------------------------------- |
-| `assignOpPolicy`       | `=`, `+=`, `-=`, `*=`, `/=`, `<<=`, `>>=`, `>>>=`, `&=`, `|=`, `^=` |
-| `unaryOpPolicy`        | `++`, `--`, `!`, `~`                                                |
-| `ternaryOpPolicy`      | `?:`                                                                |
-| `arithmeticOpPolicy`   | `+`, `-`, `*`, `/`, `%`                                             |
-| `compareOpPolicy`      | `==`, `!=`, `<`, `<=`, `>`, `>=`                                    |
-| `bitwiseOpPolicy`      | `&`, `|`, `^`, `<<`, `>>`, `>>>`                                    |
-| `boolOpPolicy`         | `&&`, `||`                                                          |
-| `intervalOpPolicy`     | `...`                                                               |
-| `arrowPolicy`          | `=>`                                                                |
-| `functionArgPolicy`    | `->`                                                                |
+| Policy                   | Operators
+| ------------------------ | ------------------------------------------------------------------- |
+| `assignOpPolicy`         | `=`, `+=`, `-=`, `*=`, `/=`, `<<=`, `>>=`, `>>>=`, `&=`, `|=`, `^=` |
+| `unaryOpPolicy`          | `++`, `--`, `!`, `~`                                                |
+| `ternaryOpPolicy`        | `?:`                                                                |
+| `arithmeticOpPolicy`     | `+`, `-`, `*`, `/`, `%`                                             |
+| `compareOpPolicy`        | `==`, `!=`, `<`, `<=`, `>`, `>=`                                    |
+| `bitwiseOpPolicy`        | `&`, `|`, `^`, `<<`, `>>`, `>>>`                                    |
+| `boolOpPolicy`           | `&&`, `||`                                                          |
+| `intervalOpPolicy`       | `...`                                                               |
+| `arrowPolicy`            | `=>`                                                                |
+| `arrowFunctionPolicy`    | `->` in `(i) -> i + 2`                                              |
+| `oldFunctionTypePolicy`  | `->` in `Int -> Void`                                               |
+| `newFunctionTypePolicy`  | `->` in `(param:Int) -> Void`                                       |
 
 Available policy values are:
 
@@ -51,7 +55,7 @@ Available policy values are:
 
 For unary operators only whitespace between operator and operand is checked, available policy values are:
 
-| Option     | Description |
+| Option    | Description |
 | --------- | ----------- |
 | `inner`   | enforce whitespace between unary operator and operand |
 | `none`    | enforce no whitespace between unary operator and operand |
