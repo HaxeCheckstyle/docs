@@ -19,6 +19,15 @@ Checks that instance variable names conform to a format specified by the `format
             "CLASS"
         ]
     }
+},
+{
+  "type": "MemberName",
+  "props": {
+    "format": "^[A-Z][a-zA-Z0-9]*$",
+    "tokens": [
+      "ENUM"
+    ]
+  }
 }
 ```
 
