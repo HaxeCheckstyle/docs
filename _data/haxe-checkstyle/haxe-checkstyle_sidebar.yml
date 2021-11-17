@@ -141,6 +141,10 @@ entries:
   - title: Comments
     output: web
     items:
+    - title: Commented Out Code
+      url: /haxe-checkstyle/commentedoutcode.html
+      output: web
+
     - title: Doc Comment Style
       url: /haxe-checkstyle/doccommentstyle.html
       output: web
