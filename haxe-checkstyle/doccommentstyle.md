@@ -3,7 +3,7 @@ title: Doc Comment Style
 toc: false
 ---
 
-Checks code documentation style (/**…**/ vs /*…*/) (available since 2.4.2)
+Checks code documentation style (`/** … **/` vs `/* … */`) (available since 2.4.2)
 
 ### Configuration
 
