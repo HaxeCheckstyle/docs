@@ -22,7 +22,7 @@ Multiline strings may break indentation and there is handling for line-wrapped i
         "ignoreConditionals": false,
         "ignoreComments": true,
         "conditionalPolicy": "aligned",
-        "wrapPolicy", "larger"
+        "wrapPolicy": "larger"
     }
 }
 ```
