@@ -60,7 +60,7 @@ The following is a sample `checkstyle.json` with 2 rules.
         {
             "type": "EmptyLines",
             "props": {
-                "maxConsecutiveEmptyLines": 1
+                "max": 1
             }
         },
         {
