@@ -9,7 +9,7 @@ Checks code documentation on fields (available since 2.4.2)
 
 ```json
 {
-  "type": "FieldDocComment"}
+  "type": "FieldDocComment",
   "props": {
     "requireParams": true,
     "fieldType": "BOTH",
