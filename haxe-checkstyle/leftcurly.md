@@ -13,7 +13,7 @@ Checks for the placement of left curly braces (`{`) for code blocks. The policy 
     "props": {
         "severity": "WARNING",
         "option": "eol",
-        "ignoreEmptySingleline": "true",
+        "ignoreEmptySingleline": true,
         "tokens": [
             "CLASS_DEF",
             "ENUM_DEF",
